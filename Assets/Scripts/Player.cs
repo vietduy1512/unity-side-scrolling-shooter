@@ -4,20 +4,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField]
-    float moveSpeed = 10f;
+    [SerializeField] float moveSpeed = 10f;
 
-    [SerializeField]
-    float padding = 0.5f;
+    [SerializeField] float padding = 0.5f;
 
-    [SerializeField]
-    GameObject playerBullet;
+    [SerializeField] GameObject playerBullet;
 
-    [SerializeField]
-    float bulletSpeed = 10f;
+    [SerializeField] float bulletSpeed = 10f;
 
-    [SerializeField]
-    float fireRate = 0.3f;
+    [SerializeField] float fireRate = 0.3f;
 
     Coroutine fireCoroutine;
 

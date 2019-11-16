@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class EnemyPath : MonoBehaviour
 {
-    [SerializeField]
+    [SerializeField] WaveConfig waveConfig;
+
+    [SerializeField] float moveSpeed = 2f;
+
     List<Transform> waypoints;
-
-    [SerializeField]
-    float moveSpeed = 2f;
-
+    
     int waypointsIndex = 0;
 
     void Start()
     {
+        waypoints = waveConfig.GetWaypoints();
         transform.position = waypoints[waypointsIndex].transform.position;
     }
 
