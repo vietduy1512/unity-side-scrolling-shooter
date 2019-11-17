@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class EnemyPath : MonoBehaviour
 {
-    [SerializeField] WaveConfig waveConfig;
-
-    [SerializeField] float moveSpeed = 2f;
+    WaveConfig waveConfig;
 
     List<Transform> waypoints;
     
@@ -23,6 +21,11 @@ public class EnemyPath : MonoBehaviour
         Move();
     }
 
+    public void SetWaveConfig(WaveConfig waveConfig)
+    {
+        this.waveConfig = waveConfig;
+    }
+
     private void Move()
     {
         if (waypointsIndex <= waypoints.Count - 1)
@@ -30,7 +33,7 @@ public class EnemyPath : MonoBehaviour
             var targetPosition = waypoints[waypointsIndex].transform.position;
             transform.position = Vector2.MoveTowards(transform.position,
                                                     targetPosition,
-                                                    moveSpeed * Time.deltaTime);
+                                                    waveConfig.GetMoveSpeed() * Time.deltaTime);
 
             if (transform.position == targetPosition)
             {
