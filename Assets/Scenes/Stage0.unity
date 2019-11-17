@@ -158,6 +158,8 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: 672fb12c277496349a459934c2cb913a, type: 2}
   - {fileID: 11400000, guid: 503fcafe4fba4ae42b6a4db6bf7291ef, type: 2}
+  startingWave: 0
+  isLoop: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +382,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.06352234}
