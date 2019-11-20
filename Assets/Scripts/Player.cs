@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
-
     [SerializeField] float padding = 0.5f;
+    [SerializeField] int health = 100;
 
+
+    [Header("Bullet")]
     [SerializeField] GameObject playerBullet;
-
     [SerializeField] float bulletSpeed = 10f;
-
     [SerializeField] float fireRate = 0.3f;
 
     Coroutine fireCoroutine;
@@ -69,5 +70,22 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(fireRate);
         }
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        OnBulletCollision(collision.gameObject.GetComponent<DamageDealer>());
+    }
+
+    private void OnBulletCollision(DamageDealer damageDealer)
+    {
+        if (!damageDealer) return;
+
+        health -= damageDealer.GetDamage();
+        damageDealer.Hit();
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

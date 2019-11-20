@@ -8,8 +8,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] float shotCounter;
     [SerializeField] float minTimeBetwenShots = 0.2f;
     [SerializeField] float maxTimeBetwenShots = 3f;
-    [SerializeField] GameObject projectile;
-    [SerializeField] float projectileSpeed = 10f;
+    [SerializeField] GameObject enemyBullet;
+    [SerializeField] float bulletSpeed = 10f;
 
     void Start()
     {
@@ -33,8 +33,8 @@ public class Enemy : MonoBehaviour
 
     private void Fire()
     {
-        GameObject bullet = Instantiate(projectile, transform.position, Quaternion.identity);
-        bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed, 0);
+        GameObject bullet = Instantiate(enemyBullet, transform.position, Quaternion.identity);
+        bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(-bulletSpeed, 0);
     }
 
     private float GetRandomCounter() => Random.Range(minTimeBetwenShots, maxTimeBetwenShots);
@@ -46,7 +46,10 @@ public class Enemy : MonoBehaviour
 
     private void OnBulletCollision(DamageDealer damageDealer)
     {
+        if (!damageDealer) return;
+
         health -= damageDealer.GetDamage();
+        damageDealer.Hit();
         if (health <= 0)
         {
             Destroy(gameObject);
