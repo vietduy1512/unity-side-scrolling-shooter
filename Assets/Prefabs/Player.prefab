@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 0.5
-  health: 200
+  health: 100
   playerBullet: {fileID: 7082569063822341091, guid: 246654fc0f8b8154b88cd0759bcb1f3d,
     type: 3}
   bulletSpeed: 20
