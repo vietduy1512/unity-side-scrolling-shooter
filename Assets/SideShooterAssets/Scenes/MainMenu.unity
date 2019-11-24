@@ -547,39 +547,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1541891564}
-    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenOptions
-      objectReference: {fileID: 0}
-    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5119767032570508348, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_Text
-      value: OPTIONS
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d8f247751bbcf54a909ae6bbeac1b92, type: 3}
 --- !u!224 &1213395723 stripped
@@ -1539,6 +1509,36 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2915983420291200610, guid: 366352262a547d7468d2d7ec91b66527,
+        type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 0ac7fb39e445048d89688f69c2a1839a,
+        type: 2}
+    - target: {fileID: 2915983421310408193, guid: 366352262a547d7468d2d7ec91b66527,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24301952, guid: 0ac7fb39e445048d89688f69c2a1839a,
+        type: 2}
+    - target: {fileID: 2915983419968654691, guid: 366352262a547d7468d2d7ec91b66527,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24301952, guid: 0ac7fb39e445048d89688f69c2a1839a,
+        type: 2}
+    - target: {fileID: 2915983421495126777, guid: 366352262a547d7468d2d7ec91b66527,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24301952, guid: 0ac7fb39e445048d89688f69c2a1839a,
+        type: 2}
+    - target: {fileID: 2915983420649903902, guid: 366352262a547d7468d2d7ec91b66527,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24301952, guid: 0ac7fb39e445048d89688f69c2a1839a,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 366352262a547d7468d2d7ec91b66527, type: 3}
 --- !u!1001 &5119767033499290511
@@ -1663,6 +1663,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1541891564}
+    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119767032570508348, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
+        type: 3}
+      propertyPath: m_Text
+      value: START
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d8f247751bbcf54a909ae6bbeac1b92, type: 3}
 --- !u!1001 &6318960802053863363
@@ -1732,9 +1742,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6318960801177178549, guid: 0bc4a9e8b6a3fb844949ff925df2f05b,
+        type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 0ac7fb39e445048d89688f69c2a1839a,
+        type: 2}
     - target: {fileID: 1699798005, guid: 0bc4a9e8b6a3fb844949ff925df2f05b, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3d63e48e727a9b54b87e762b7668baeb, type: 3}
+    - target: {fileID: 1699798005, guid: 0bc4a9e8b6a3fb844949ff925df2f05b, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24324684, guid: 0ac7fb39e445048d89688f69c2a1839a,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc4a9e8b6a3fb844949ff925df2f05b, type: 3}

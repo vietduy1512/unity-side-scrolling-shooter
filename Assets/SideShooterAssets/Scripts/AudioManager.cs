@@ -10,16 +10,16 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (PlayerPrefs.HasKey("MasterVol")) {
-            mixer.SetFloat("MasterVol", PlayerPrefs.GetFloat("MasterVol"));
+        if (PlayerPrefs.HasKey("masterVol")) {
+            mixer.SetFloat("masterVol", PlayerPrefs.GetFloat("masterVol"));
         }
 
-        if (PlayerPrefs.HasKey("MusicVol")) {
-            mixer.SetFloat("MusicVol", PlayerPrefs.GetFloat("MusicVol"));
+        if (PlayerPrefs.HasKey("musicVol")) {
+            mixer.SetFloat("musicVol", PlayerPrefs.GetFloat("musicVol"));
         }
 
-        if (PlayerPrefs.HasKey("SFXVol")) {
-            mixer.SetFloat("SFXVol", PlayerPrefs.GetFloat("SFXVol"));
+        if (PlayerPrefs.HasKey("sfxVol")) {
+            mixer.SetFloat("sfxVol", PlayerPrefs.GetFloat("sfxVol"));
         }
     }
 
