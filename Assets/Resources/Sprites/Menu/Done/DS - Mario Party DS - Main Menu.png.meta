@@ -1,0 +1,2692 @@
+fileFormatVersion: 2
+guid: 834d5f29700651546bdefcb11b116c40
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DS - Mario Party DS - Main Menu_0
+    21300002: DS - Mario Party DS - Main Menu_1
+    21300004: DS - Mario Party DS - Main Menu_2
+    21300006: DS - Mario Party DS - Main Menu_3
+    21300008: DS - Mario Party DS - Main Menu_4
+    21300010: DS - Mario Party DS - Main Menu_5
+    21300012: DS - Mario Party DS - Main Menu_6
+    21300014: DS - Mario Party DS - Main Menu_7
+    21300016: DS - Mario Party DS - Main Menu_8
+    21300018: DS - Mario Party DS - Main Menu_9
+    21300020: DS - Mario Party DS - Main Menu_10
+    21300022: DS - Mario Party DS - Main Menu_11
+    21300024: DS - Mario Party DS - Main Menu_12
+    21300026: DS - Mario Party DS - Main Menu_13
+    21300028: DS - Mario Party DS - Main Menu_14
+    21300030: DS - Mario Party DS - Main Menu_15
+    21300032: DS - Mario Party DS - Main Menu_16
+    21300034: DS - Mario Party DS - Main Menu_17
+    21300036: DS - Mario Party DS - Main Menu_18
+    21300038: DS - Mario Party DS - Main Menu_19
+    21300040: DS - Mario Party DS - Main Menu_20
+    21300042: DS - Mario Party DS - Main Menu_21
+    21300044: DS - Mario Party DS - Main Menu_22
+    21300046: DS - Mario Party DS - Main Menu_23
+    21300048: DS - Mario Party DS - Main Menu_24
+    21300050: DS - Mario Party DS - Main Menu_25
+    21300052: DS - Mario Party DS - Main Menu_26
+    21300054: DS - Mario Party DS - Main Menu_27
+    21300056: DS - Mario Party DS - Main Menu_28
+    21300058: DS - Mario Party DS - Main Menu_29
+    21300060: DS - Mario Party DS - Main Menu_30
+    21300062: DS - Mario Party DS - Main Menu_31
+    21300064: DS - Mario Party DS - Main Menu_32
+    21300066: DS - Mario Party DS - Main Menu_33
+    21300068: DS - Mario Party DS - Main Menu_34
+    21300070: DS - Mario Party DS - Main Menu_35
+    21300072: DS - Mario Party DS - Main Menu_36
+    21300074: DS - Mario Party DS - Main Menu_37
+    21300076: DS - Mario Party DS - Main Menu_38
+    21300078: DS - Mario Party DS - Main Menu_39
+    21300080: DS - Mario Party DS - Main Menu_40
+    21300082: DS - Mario Party DS - Main Menu_41
+    21300084: DS - Mario Party DS - Main Menu_42
+    21300086: DS - Mario Party DS - Main Menu_43
+    21300088: DS - Mario Party DS - Main Menu_44
+    21300090: DS - Mario Party DS - Main Menu_45
+    21300092: DS - Mario Party DS - Main Menu_46
+    21300094: DS - Mario Party DS - Main Menu_47
+    21300096: DS - Mario Party DS - Main Menu_48
+    21300098: DS - Mario Party DS - Main Menu_49
+    21300100: DS - Mario Party DS - Main Menu_50
+    21300102: DS - Mario Party DS - Main Menu_51
+    21300104: DS - Mario Party DS - Main Menu_52
+    21300106: DS - Mario Party DS - Main Menu_53
+    21300108: DS - Mario Party DS - Main Menu_54
+    21300110: DS - Mario Party DS - Main Menu_55
+    21300112: DS - Mario Party DS - Main Menu_56
+    21300114: DS - Mario Party DS - Main Menu_57
+    21300116: DS - Mario Party DS - Main Menu_58
+    21300118: DS - Mario Party DS - Main Menu_59
+    21300120: DS - Mario Party DS - Main Menu_60
+    21300122: DS - Mario Party DS - Main Menu_61
+    21300124: DS - Mario Party DS - Main Menu_62
+    21300126: DS - Mario Party DS - Main Menu_63
+    21300128: DS - Mario Party DS - Main Menu_64
+    21300130: DS - Mario Party DS - Main Menu_65
+    21300132: DS - Mario Party DS - Main Menu_66
+    21300134: DS - Mario Party DS - Main Menu_67
+    21300136: DS - Mario Party DS - Main Menu_68
+    21300138: DS - Mario Party DS - Main Menu_69
+    21300140: DS - Mario Party DS - Main Menu_70
+    21300142: DS - Mario Party DS - Main Menu_71
+    21300144: DS - Mario Party DS - Main Menu_72
+    21300146: DS - Mario Party DS - Main Menu_73
+    21300148: DS - Mario Party DS - Main Menu_74
+    21300150: DS - Mario Party DS - Main Menu_75
+    21300152: DS - Mario Party DS - Main Menu_76
+    21300154: DS - Mario Party DS - Main Menu_77
+    21300156: DS - Mario Party DS - Main Menu_78
+    21300158: DS - Mario Party DS - Main Menu_79
+    21300160: DS - Mario Party DS - Main Menu_80
+    21300162: DS - Mario Party DS - Main Menu_81
+    21300164: DS - Mario Party DS - Main Menu_82
+    21300166: DS - Mario Party DS - Main Menu_83
+    21300168: DS - Mario Party DS - Main Menu_84
+    21300170: DS - Mario Party DS - Main Menu_85
+    21300172: DS - Mario Party DS - Main Menu_86
+    21300174: DS - Mario Party DS - Main Menu_87
+    21300176: DS - Mario Party DS - Main Menu_88
+    21300178: DS - Mario Party DS - Main Menu_89
+    21300180: DS - Mario Party DS - Main Menu_90
+    21300182: DS - Mario Party DS - Main Menu_91
+    21300184: DS - Mario Party DS - Main Menu_92
+    21300186: DS - Mario Party DS - Main Menu_93
+    21300188: DS - Mario Party DS - Main Menu_94
+    21300190: DS - Mario Party DS - Main Menu_95
+    21300192: DS - Mario Party DS - Main Menu_96
+    21300194: DS - Mario Party DS - Main Menu_97
+    21300196: DS - Mario Party DS - Main Menu_98
+    21300198: DS - Mario Party DS - Main Menu_99
+    21300200: DS - Mario Party DS - Main Menu_100
+    21300202: DS - Mario Party DS - Main Menu_101
+    21300204: DS - Mario Party DS - Main Menu_102
+    21300206: DS - Mario Party DS - Main Menu_103
+    21300208: DS - Mario Party DS - Main Menu_104
+    21300210: DS - Mario Party DS - Main Menu_105
+    21300212: DS - Mario Party DS - Main Menu_106
+    21300214: DS - Mario Party DS - Main Menu_107
+    21300216: DS - Mario Party DS - Main Menu_108
+    21300218: DS - Mario Party DS - Main Menu_109
+    21300220: DS - Mario Party DS - Main Menu_110
+    21300222: DS - Mario Party DS - Main Menu_111
+    21300224: DS - Mario Party DS - Main Menu_112
+    21300226: DS - Mario Party DS - Main Menu_113
+    21300228: Box01
+    21300230: DS - Mario Party DS - Main Menu_115
+    21300232: DS - Mario Party DS - Main Menu_116
+    21300234: DS - Mario Party DS - Main Menu_117
+    21300236: DS - Mario Party DS - Main Menu_118
+    21300238: DS - Mario Party DS - Main Menu_119
+    21300240: Box02
+    21300242: DS - Mario Party DS - Main Menu_121
+    21300244: DS - Mario Party DS - Main Menu_122
+    21300246: DS - Mario Party DS - Main Menu_123
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 776
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d9c520cab67924d9c66c1db407b47e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 776
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be81558def97d4b41b044dcc8dd7d980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 776
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d0e698263b0b1449f62169c6933c3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 776
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe585626da982fb4fa378b0208a06db3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 776
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798f133fb137e284a9ae8e0ca8075fb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 804
+        width: 160
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14cfb9c0eb85c140899f42003715a39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_6
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 810
+        width: 128
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1e0784e16305b4b8d7bde84afa1e26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 784
+        width: 160
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c080cd4f1382544b8b2680ca53566f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_8
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 735
+        width: 230
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b22b9087ef00e4ca636acb27204f84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 709
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a6a28c88094b041bb61d49cc121da1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 709
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee594a145fa9de4499b7fc8d8c3be96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 709
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa9cdeb166356c4486b1f8fca9cb26c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 709
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ecd39a09d819145abf7053c6ac3906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 709
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a2fcbf24769e245b3664c630f16936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_14
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 754
+        width: 100
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13dff54edec50f49b3b5b4ef815ba9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 731
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81f324747d464e448f5b779ce8a0bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 732
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5df8eb7364a4c4280cb1dd858dfcdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 712
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2370699d72e3e964588dc023356e9250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 713
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d61125bd4beb6478174568bf7fb54d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_19
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 713
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f3085b60417574b9068693aa79e6b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_20
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 713
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c725ab13ad78d1541a7a4474755538dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_21
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 713
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b042215d1625f42458d0584c5331e802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_22
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 713
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f7adf423b301a4b8f5fc93a558fa0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 647
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5310f843dd4f7e458b638b309681ab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 647
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d1e66f48c706044b1af99b0140d0b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 647
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f301cb057641ea4d9fd917c52ea0c51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 647
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89608c9ed41531c49b2839f9fde4bf47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 647
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5096aab18172047b0602f34d88bf23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_28
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 692
+        width: 69
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb42f66158136346a20000b3eb83c6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_29
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 693
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09599ecc21c1ca94cafd3de44b77df58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_30
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 653
+        width: 156
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a2cfc741659d445a4743779c26a196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 673
+        width: 54
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67808716d48654349bfcc8ad655c30e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_32
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 673
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e81418d7699c14e82d3d5829282150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_33
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 651
+        width: 91
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed2a9db418765a4bab89171fdcd332c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 585
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5acdbc90839f2d4f8db3b5200f2ccd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_35
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 585
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e826944060fb8e446bdef6bfb12af0b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_36
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 585
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cd47672aa18604b9a110dac20dafa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 585
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e9c885bd88bdf4697fd90cc48db2ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 585
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4a17f20e107c045bd7dd6f6a066405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_39
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 628
+        width: 61
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98f7a048e19b314488626563a847171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_40
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 628
+        width: 165
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e694ee31866b96c479a3b62b7036a9be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_41
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 577
+        width: 120
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7447138a7d39b4fad2b7e4281df00a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_42
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 613
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70ea45ba7d071248af54f7a89b3bb26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_43
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 523
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef85a436fb44db49bb8ab997c2e1203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_44
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 523
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a827bae0f00bd40b1245c70df6e14a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_45
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 523
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b406926b0b79c43acd0e92e51394c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_46
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 523
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9c964be5341a9438d3cb184df193d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_47
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 523
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b0c820d18a84d48bbf6eec5102cd96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_48
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 518
+        width: 178
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078fb3f2c15c1c64cbdb5e2a09944f7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_49
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 530
+        width: 224
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1669d8ec1fede498f81386f7988656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 468
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bbb2c055c3ccb48b78ab7a967d9dd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 468
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da6a006dfe84f84a854e6544337a2f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_52
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 468
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7ef086918fbd34e91b0a1966e88d5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_53
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 468
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b04d9901259b0d4cb4a65659bea05ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_54
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 468
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad49cf53c24560344b2fdfb060909c88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_55
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 387
+        width: 240
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5d7f1b3f144c745a9bb1e23c1549c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_56
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 506
+        width: 160
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d595d1017ffb7d84ab954af647bd5519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_57
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 489
+        width: 192
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd116bb057c38a4b8d6fb28b1bedf85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_58
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 473
+        width: 192
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415fb533d94ba5e47a47a69904cfb0cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_59
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 413
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e53211363245cc4aa163baeffa445d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_60
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 413
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d41152408fab9a4dad74d638860a5d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 413
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb19cc76a765d874ca6d0d21616f623c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_62
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 435
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcce0bc9163e0fe4b8f2dfcd4b595c67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_63
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 435
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6c312bfbb556245b3d41c1a3fbbac5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_64
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 420
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6abc4dacabdf84a9873bfc293b14e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_65
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 348
+        width: 20
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f4ebc363608464baa2972e53d469df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_66
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 339
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e0c422fa3fb6c468cb47b1de88a9c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_67
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 379
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3807afc990884494fa0b4cc98f9a1f7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_68
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 379
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202b28b1325199d41be7cd2e6225b041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_69
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 379
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe8df97876485a48a6dfcb419595e46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_70
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 409
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7634b3b51a1dfa440b63ab3ce61d3b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_71
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 409
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb26575f85b5044e8f149b75774d48b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 383
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a645b9eeb745d7343839b1c573cc376d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_73
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 383
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3cb2413b5e63745b60e48612e85c80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_74
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 348
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d07d3f39899654ea2214e4205fb916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_75
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 343
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e318450787e79944bdad8a48a6a1cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_76
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 343
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04668595f3ff9ee42b0e7ef5801b5c6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 343
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ec0db69d03f754bbe9966b60416632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_78
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 343
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63d24a0033f827469c1e94ad41f0940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_79
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 349
+        width: 79
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b5f647b15cdb4488908c434e37c022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_80
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 357
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2450637a326ccca4784d797c1a310c10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_81
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 357
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf11e69d5ecbed42b1466701603f075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_82
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 232
+        width: 230
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7257d9f8cec7dd4a8b45e515e487c36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_83
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 342
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313bb92bfff45d9409ce8db5346e4e8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_84
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 331
+        width: 112
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06458d85cdc67284b9822675fb3df34d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_85
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 327
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21e0a1cce6af074690e32cf05f29664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_86
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 326
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140d006f68a56384ea0614692424ff27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_87
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 325
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553ee8962104aa14c894f573c94663e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_88
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 301
+        width: 123
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d222cabd4ea2e6498f0ce7d812ea03c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_89
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 314
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e1e9579a24e584c888ce64c7460001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_90
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 314
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517ab34ec75c15342a7c08c8446ca294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_91
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 312
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f23d2dab51df84e988c34694131453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_92
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 312
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d604ee8e8b1de64bacdc89b1c796e6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_93
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 312
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b9a4f59bd103e4a8a844b0ad61793d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_94
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 312
+        width: 79
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d34ceb8200c9eb42b5acca36bc20c02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_95
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 312
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc42f0dc5f333854e9e12d7a905c2fe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_96
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 304
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07e73cc3ecf2d4459c3809a6b007980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_97
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 304
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bbb73299d73cf4697d10a144d944b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_98
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 296
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba46843eb26feb4ea83d4c4a46132f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_99
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 296
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8b42588dcf04645b5cc8990a11914a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_100
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 296
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237c8e1d87237b84bbf086e2b707dd02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_101
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 296
+        width: 79
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd82ea798b44e7d439ba052055d36006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_102
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 296
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4712003ea72aee34fbb4e81db045581d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_103
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 274
+        width: 174
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2241b0901a6d44b8cba38a4fcae52e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_104
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 269
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a94528fa919d8348b0ef3adb3197d02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_105
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 269
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524b5a0830b4300419ad1807d4fc02d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_106
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 202
+        width: 209
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80437d89fbdb2f54eb93016fcb20632c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_107
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 242
+        width: 151
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed08b25b51bd077449c40fd89bb40668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_108
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 247
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0d049f57454ed46b42d1a1e3c19752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_109
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 247
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cfa92c2ef264e43a0af2825d3ed318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_110
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 253
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b85f4ff8176a5540a65fa73b781b7ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_111
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 253
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bda2cb2f26bce43a31b1a2063daaf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_112
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 237
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8068d0459925a7240b242bacc3a3bad8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_113
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 237
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e339e00ccf03ef46bdafecf0e3f3c80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box01
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 196
+        width: 206
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2806ba8ce3610a4f8dffd1f8f2fd0dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_115
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 192
+        width: 232
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a788b6c7a396f44996f8a4e6e3c4eb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_116
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 221
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95b313d2684f00448ed6f04839645eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_117
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 221
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4465f24c32ee1f244ae5a55c8b91f179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_118
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 205
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bee8c24df24991428a920bf8f55e364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_119
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 205
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a314f2714e9ea439fa101adad5ed44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box02
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 149
+        width: 210
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c2ba1dc29c5a84bb4f7c88f391deae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_121
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 168
+        width: 232
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4957603f9d6f9414ea2961591208c6e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_122
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 252
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c402ccda54d1f2b4b997ef8fff88dd5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS - Mario Party DS - Main Menu_123
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 72
+        width: 240
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947bd237cca54114f8a1ba76a4ee4577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

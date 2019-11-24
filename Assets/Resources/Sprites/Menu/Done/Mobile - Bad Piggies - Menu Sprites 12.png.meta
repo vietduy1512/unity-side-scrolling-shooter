@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: a3b8f8d5a6a8cb04986e515efe0b3d2c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mobile - Bad Piggies - Menu Sprites 12_0
+    21300002: Mobile - Bad Piggies - Menu Sprites 12_1
+    21300004: Mobile - Bad Piggies - Menu Sprites 12_2
+    21300006: Mobile - Bad Piggies - Menu Sprites 12_3
+    21300008: Mobile - Bad Piggies - Menu Sprites 12_4
+    21300010: Mobile - Bad Piggies - Menu Sprites 12_5
+    21300012: Mobile - Bad Piggies - Menu Sprites 12_6
+    21300014: Mobile - Bad Piggies - Menu Sprites 12_7
+    21300016: Mobile - Bad Piggies - Menu Sprites 12_8
+    21300018: Mobile - Bad Piggies - Menu Sprites 12_9
+    21300020: Mobile - Bad Piggies - Menu Sprites 12_10
+    21300022: Mobile - Bad Piggies - Menu Sprites 12_11
+    21300024: Mobile - Bad Piggies - Menu Sprites 12_12
+    21300026: Mobile - Bad Piggies - Menu Sprites 12_13
+    21300028: Mobile - Bad Piggies - Menu Sprites 12_14
+    21300030: Mobile - Bad Piggies - Menu Sprites 12_15
+    21300032: Mobile - Bad Piggies - Menu Sprites 12_16
+    21300034: Mobile - Bad Piggies - Menu Sprites 12_17
+    21300036: Mobile - Bad Piggies - Menu Sprites 12_18
+    21300038: Mobile - Bad Piggies - Menu Sprites 12_19
+    21300040: Mobile - Bad Piggies - Menu Sprites 12_20
+    21300042: Mobile - Bad Piggies - Menu Sprites 12_21
+    21300044: Mobile - Bad Piggies - Menu Sprites 12_22
+    21300046: Mobile - Bad Piggies - Menu Sprites 12_23
+    21300048: Mobile - Bad Piggies - Menu Sprites 12_24
+    21300050: Mobile - Bad Piggies - Menu Sprites 12_25
+    21300052: Mobile - Bad Piggies - Menu Sprites 12_26
+    21300054: Mobile - Bad Piggies - Menu Sprites 12_27
+    21300056: Mobile - Bad Piggies - Menu Sprites 12_28
+    21300058: Mobile - Bad Piggies - Menu Sprites 12_29
+    21300060: Mobile - Bad Piggies - Menu Sprites 12_30
+    21300062: Mobile - Bad Piggies - Menu Sprites 12_31
+    21300064: Mobile - Bad Piggies - Menu Sprites 12_32
+    21300066: Mobile - Bad Piggies - Menu Sprites 12_33
+    21300068: Mobile - Bad Piggies - Menu Sprites 12_34
+    21300070: Mobile - Bad Piggies - Menu Sprites 12_35
+    21300072: Mobile - Bad Piggies - Menu Sprites 12_36
+    21300074: Mobile - Bad Piggies - Menu Sprites 12_37
+    21300076: Mobile - Bad Piggies - Menu Sprites 12_38
+    21300078: Mobile - Bad Piggies - Menu Sprites 12_39
+    21300080: Mobile - Bad Piggies - Menu Sprites 12_40
+    21300082: Mobile - Bad Piggies - Menu Sprites 12_41
+    21300084: Mobile - Bad Piggies - Menu Sprites 12_42
+    21300086: Mobile - Bad Piggies - Menu Sprites 12_43
+    21300088: Mobile - Bad Piggies - Menu Sprites 12_44
+    21300090: Mobile - Bad Piggies - Menu Sprites 12_45
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 944
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e049bfeef584cc3479056ad680c9b284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 922
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fead3ce82d65a1c408941ee7f20ad748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 899
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe131e6e8d40c3945a5b5754c1d7ad69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 900
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf5cb62a27d06248b55d0cb2eaa5779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 807
+        width: 172
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c874c8794ba07a043ab1b82810b430f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_5
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 834
+        width: 275
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d267da11f6606408e1e63bec694327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 811
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254c17a40b1c19a48962cce03e90a999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 810
+        width: 89
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f7354f3296ea346929b06c397a4a43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 772
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38337c8afbed2445aadef77b95a101d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 772
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3f468165aff944e91a8a71f18047da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_10
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 450
+        width: 275
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80801e036c2a7084a918cdfc26ce7487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_11
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 781
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3617d7e4b2ccbd64fb6b0faa40aabb4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 643
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9983815d41f615a4dafc0e51e648bc10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_17
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 643
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2003990ba635cea45af5c2d12bbbc89d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_18
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 646
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242661bcbf892a34abc84a1fa463ff2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_26
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 585
+        width: 107
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033a13d411d368a4d875e28103e20e0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_27
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 520
+        width: 85
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f50bd61dd9a38640bc7ae8358a1b06b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 518
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b85a0f4843e4a48b5c0fc6e82fc9d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_29
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 513
+        width: 142
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1555a454dfa5f2458d938c53f7766a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_30
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 523
+        width: 106
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d22817d248946d48a15068a5acaa1b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7fca5491e8e0c4883337e013392eaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_32
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 387
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4cfac45134da845820d46454108578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 361
+        width: 126
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5486d18a18c2f41a436b0aef050d6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_34
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 261
+        width: 248
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb035b65aa645747b397622d4788f76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_35
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 258
+        width: 275
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9747e4219e72a604696fdf29398e10ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 254
+        width: 89
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c7d5713d9339848991b2857af20a41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 129
+        width: 254
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77a931ac61e4fd40a2f4f6f401b0872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_38
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 67
+        width: 275
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b6889c4de7a754185167a18c60a6c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_39
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 150
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe09441a7282dd441bcf05b23ab8cdff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_40
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 151
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0973756491b8241adf4a0fdd69ee87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_41
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 66
+        width: 275
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3e5cc3f9865f04d826d6539c8a742a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 48
+        width: 46
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d3970c428e9a84a9939a44a5ff536d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_43
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 12
+        width: 121
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5507deff0888774c9c5ec436785fa41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_44
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4125a80be02614799a056d2f3f480f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Bad Piggies - Menu Sprites 12_45
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 16
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cbe3cc6ae7b1b49b9c6420ffd97e51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,907 @@
+fileFormatVersion: 2
+guid: 2a61ff74ecab93341badc36a548b1e6c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_0
+    21300002: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_1
+    21300004: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_2
+    21300006: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_3
+    21300008: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_4
+    21300010: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_5
+    21300012: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_6
+    21300014: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_7
+    21300016: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_8
+    21300018: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_9
+    21300020: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_10
+    21300022: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_11
+    21300024: OK1
+    21300026: Back1
+    21300028: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_14
+    21300030: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_15
+    21300032: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_16
+    21300034: OK2
+    21300036: Back2
+    21300038: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_19
+    21300040: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_20
+    21300042: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_21
+    21300044: BoxBlack
+    21300046: Dialog
+    21300048: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_24
+    21300050: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_25
+    21300052: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_26
+    21300054: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_27
+    21300056: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_28
+    21300058: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_29
+    21300060: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_30
+    21300062: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_31
+    21300064: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_32
+    21300066: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_33
+    21300068: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_34
+    21300070: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_35
+    21300072: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_36
+    21300074: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_37
+    21300076: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_38
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 140
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb04559146d2ab54bbaaaa6bf3fe6964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 960
+        width: 140
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6dc7774327e9544afc77abd37b30f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 884
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9891cfa5721d74b80e08bdff4e1632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 884
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ad6a5a6f849a44583f4ac25ac5c29f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_4
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 932
+        width: 92
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f7ca963a55f994baa1e1c70cdf9bdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 890
+        width: 336
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c33d3ad59a8a9b44a2c3342c239fec4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_6
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 852
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3646e539f2a094db824bed51e6c09e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830
+        width: 412
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2eb22fd0f2be34fbc92790f2a2e4d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 782
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53265c879a1fa34aba9076c3cc51e0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_9
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 782
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d892d6b58452f574c9387a6be70a0b67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_10
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 782
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca70fb4af8b71b74691e4b80413db0f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 646
+        width: 356
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ace98797a5ce64bacef2a8c91de9b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OK1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 712
+        width: 260
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995b69bd351b42e4a91362f14422cf1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back1
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 712
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd518b53502a4643bf3cadd95f740a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_14
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 642
+        width: 590
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76988f9292f80294ea05831d02e12c44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_15
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 648
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6a2d6248268ea49a6156fb9907dda1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 644
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1243641d4544f9e4aaaf8ba28ba8d85e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OK2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 642
+        width: 260
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d623bb136f95943ab39eaf3d917104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 642
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f847bea3a7695a541acc355eceeaefa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 420
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d12cd20d4061b84fae653ea479dedd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_20
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 405
+        height: 626
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a16c28bb00a0084383afe27204f14f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_21
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 473
+        width: 596
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759e41ab39d737d4596c685bb2ed1520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoxBlack
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 318
+        width: 590
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394a14cbb725a1e439c6d1f58ea2293b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialog
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1
+        width: 649
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f809e69844370c42b35da29c3c8a349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_24
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 208
+        width: 104
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1490dcb40eab9249ac4028b50080ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_25
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 198
+        width: 116
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a1147b1968325479f91068e232f0e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_26
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 226
+        width: 192
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe963908461ff24e91e6a0272480502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_27
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 138
+        width: 94
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75da254a7ea2e649b59d0b469a7ff20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_28
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 138
+        width: 82
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d35acfd51882e428e1209d461b51d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_29
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 190
+        width: 192
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc173effc493594e96730a572e8d47e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_30
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 154
+        width: 192
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fed02ff4fc0ca488cf9d87bd6a66d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_31
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 72
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2d862e932400f45b58f47a21fcf742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_32
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 72
+        width: 86
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75226eff2fce8b3409172733762bad5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_33
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 118
+        width: 192
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eeb42d26842ba4ea19b5c2f9ec38e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_34
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 7
+        width: 92
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222059e99cc76874c9a4f1cd4dcc3286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_35
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 7
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3192a81052f20184cb39b5e630e7d16d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_36
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 54
+        width: 116
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29868359352ab804fbeb638ffe4f84b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_37
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 0
+        width: 140
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fdaf9f1cad8b340a943a5326b1936a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - The World Ends With You Solo Remix - Cocos DLC Shop_38
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 0
+        width: 140
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5130d9d2121128b44b89317ea97d587f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

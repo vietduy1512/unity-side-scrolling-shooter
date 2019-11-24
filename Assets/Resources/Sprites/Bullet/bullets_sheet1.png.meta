@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 13421d0b32f45584892852bc98c1b31e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 1
+    21300002: 2
+    21300004: 3
+    21300006: 4
+    21300008: 5
+    21300010: 6
+    21300012: 7
+    21300014: 8
+    21300016: 9
+    21300018: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_9
+    21300020: b5
+    21300022: b6
+    21300024: b7
+    21300026: b8
+    21300028: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_14
+    21300030: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_15
+    21300032: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_16
+    21300034: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_17
+    21300036: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_18
+    21300038: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_19
+    21300040: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_20
+    21300042: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_21
+    21300044: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_22
+    21300046: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_23
+    21300048: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_24
+    21300050: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_25
+    21300052: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_26
+    21300054: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_27
+    21300056: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_28
+    21300058: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_29
+    21300060: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_30
+    21300062: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_31
+    21300064: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_32
+    21300066: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_33
+    21300068: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_34
+    21300070: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_35
+    21300072: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_36
+    21300074: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_37
+    21300076: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_38
+    21300078: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_39
+    21300080: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_40
+    21300082: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_41
+    21300084: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_42
+    21300086: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_43
+    21300088: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_44
+    21300090: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_45
+    21300092: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_46
+    21300094: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_47
+    21300096: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_48
+    21300098: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_49
+    21300100: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_50
+    21300102: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_51
+    21300104: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_52
+    21300106: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_53
+    21300108: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_54
+    21300110: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_55
+    21300112: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_56
+    21300114: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_57
+    21300116: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_58
+    21300118: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_59
+    21300120: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_60
+    21300122: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_61
+    21300124: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_62
+    21300126: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_63
+    21300128: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_64
+    21300130: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_65
+    21300132: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_66
+    21300134: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_67
+    21300136: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_68
+    21300138: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_69
+    21300140: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_70
+    21300142: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_71
+    21300144: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_72
+    21300146: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_73
+    21300148: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_74
+    21300150: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_75
+    21300152: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_76
+    21300154: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_77
+    21300156: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_78
+    21300158: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_79
+    21300160: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_80
+    21300162: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_81
+    21300164: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_82
+    21300166: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_83
+    21300168: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_84
+    21300170: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_85
+    21300172: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_86
+    21300174: 1
+    21300176: 2
+    21300178: 3
+    21300180: 4
+    21300182: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_91
+    21300184: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_92
+    21300186: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_93
+    21300188: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_94
+    21300190: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_95
+    21300192: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_96
+    21300194: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_97
+    21300196: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_98
+    21300198: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_99
+    21300200: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_100
+    21300202: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_101
+    21300204: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_102
+    21300206: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_103
+    21300208: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_104
+    21300210: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_105
+    21300212: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_106
+    21300214: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_107
+    21300216: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_108
+    21300218: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_109
+    21300220: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_110
+    21300222: 5
+    21300224: 9
+    21300226: 6
+    21300228: 7
+    21300230: 8
+    21300232: b1
+    21300234: b2
+    21300236: b3
+    21300238: b4
+    21300240: m1
+    21300242: m2
+    21300244: m3
+    21300246: m4
+    21300248: m5
+    21300250: m6
+    21300252: m7
+    21300254: m8
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 272
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf63d1773b2d554cb98f5e190f50a7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 272
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952b7ed535326f3499f5b6b61ee512f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 272
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d063c2dd3eff3341b0a07f26ac2c32a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 272
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13da28f7e672f3e46a796e0de306dcf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 142
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f5e97fabdb40d4f96d7d55806811fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 142
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd1fd5a5ce93d94cb2c320406809675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 142
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb87005980900264f8bf1a280ad334d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 142
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd5b10a40c7e4c40ac5321741ee0e03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 12
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1ea67059416fd4b8fa482b069afa90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 85
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f2a2e54cc54b943b2c3cead9efad7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1152
+        width: 99
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9937ffb6639bff147b91e54f22807768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1153
+        width: 108
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8febdcfcb07a0942bde5dea6344d4a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1155
+        width: 91
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451815671ccb1a142bb7845edb3ca753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1196
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a084c62e753505b41abd8cb57a1da879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1155
+        width: 100
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd15362253f4d9443a74d9cc3a9b8f66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1155
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23e3792976f40b449a0c58bb04f636a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1154
+        width: 91
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c59ad4976508b4ca6ae99c11a879b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1153
+        width: 85
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532047fa81308b74e81e62639f963ac1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Soreyuke Burunyanman Hardcore - Bullets_14
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1178
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3a470495f2ccf42a2a9c01ad4071eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 867
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70adafb2b2821b4982d383c53fa4c1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 866
+        width: 80
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367b950d7526b47408d96673a04dbdcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 866
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382ee271715caf54cab21a021733ed89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 868
+        width: 81
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e590806cc63d34db58674cd04a080e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m5
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 802
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c037c18e12aa81541ad2bbfe78fa42b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 801
+        width: 80
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe1984947abe9443a1f6aadabb4a739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m7
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 802
+        width: 82
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd95c775ced7f04ca04004943567271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m8
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 803
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf75fc0f1c5c164d9da342cc74b5a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
