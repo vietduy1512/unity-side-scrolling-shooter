@@ -35,7 +35,7 @@ public class EnemyPath : MonoBehaviour
                                                     targetPosition,
                                                     waveConfig.GetMoveSpeed() * Time.deltaTime);
 
-            if (transform.position == targetPosition)
+            if (transform.position.x == targetPosition.x && transform.position.y == targetPosition.y)
             {
                 waypointsIndex++;
             }

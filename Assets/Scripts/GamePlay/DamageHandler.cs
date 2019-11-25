@@ -37,7 +37,7 @@ public class DamageHandler : MonoBehaviour
         }
 
         // INIT
-        Health = (GameObject)Instantiate(Health, transform.position, transform.rotation); // Create GO
+        Health = (GameObject)Instantiate(Health, transform.position, Quaternion.identity); // Create GO
 
         if (gameObject.layer == 13)
             Health.transform.parent = transform;

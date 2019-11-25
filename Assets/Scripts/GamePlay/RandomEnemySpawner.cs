@@ -1,21 +1,21 @@
 ﻿using UnityEngine;
 
-public class EnemySpawner : MonoBehaviour
+public class RandomEnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
-    public GameObject appearPrefab;
+    [SerializeField] GameObject enemyPrefab;
+    [SerializeField] GameObject appearPrefab;
+
+    [SerializeField] float spawnDistance = 12f;
+
+    [SerializeField] float nextEnemy = 5; //Time to respawn Enemies
+    [SerializeField] float beginEnemiesSpawn = 1; //Enemy in the begining
+
+    [SerializeField] int enemiesInOneWave = 2;
+
+    [SerializeField] int maxWaves = 4; //Max enemies
+
     GameObject[] Appearance = new GameObject[50];
-
-    public float spawnDistance = 12f;
-
-    public float nextEnemy = 5; //Time to respawn Enemies
-    public float beginEnemiesSpawn = 1; //Enemy in the begining
-
-    public int enemiesInOneWave = 2;
-
-    public int maxWaves = 4; //Max enemies
     int num;
-
     bool notAppearing = true;
     Vector3[] offset = new Vector3[50];
 
@@ -39,17 +39,12 @@ public class EnemySpawner : MonoBehaviour
     {
         if (beginEnemiesSpawn <= 0 && num > 0 && !notAppearing)
         {
-
             num--;
             beginEnemiesSpawn = nextEnemy;
 
-            // decrease cooldown -- Nah
-            /*nextEnemy *= 0.9f;
-			if(nextEnemy < 2)
-				nextEnemy = 2;*/
             for (int j = 0; j < enemiesInOneWave; j++)
             {
-                Instantiate(enemyPrefab, transform.position + offset[j], Quaternion.identity);
+                Instantiate(enemyPrefab, transform.position + offset[j], Quaternion.Euler(0, 0, 90));
                 Destroy(Appearance[j]);
             }
 
@@ -57,10 +52,8 @@ public class EnemySpawner : MonoBehaviour
         }
         else if (beginEnemiesSpawn <= 2 && num > 0 && notAppearing)
         {
-
             for (int j = 0; j < enemiesInOneWave; j++)
             {
-
                 RandomPosition(j);
                 notAppearing = false;
                 Appearance[j] = (GameObject)Instantiate(appearPrefab, transform.position + offset[j], Quaternion.identity);
@@ -69,10 +62,8 @@ public class EnemySpawner : MonoBehaviour
         }
         else if (beginEnemiesSpawn <= 2 && num > 0 && !notAppearing)
         {
-
             for (int j = 0; j < enemiesInOneWave; j++)
             {
-
                 if (Appearance[j].transform.localScale == new Vector3(1f, 1f, 1f))
                 {
                     return;
@@ -89,11 +80,10 @@ public class EnemySpawner : MonoBehaviour
     void RandomPosition(int j)
     {
         offset[j] = Random.onUnitSphere;
-
-        offset[j].z = 0;
-
         offset[j] = offset[j].normalized * spawnDistance;
 
+        offset[j].x = Mathf.Abs(offset[j].x);
         offset[j].y /= 2;
+        offset[j].z = 0;
     }
 }
