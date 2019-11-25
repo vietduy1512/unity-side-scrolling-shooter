@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -15,11 +16,11 @@ TagManager:
   - 
   - Player
   - Enemy
-  - PlayerProjectile
-  - EnemyProjectile
-  - 
-  - 
-  - 
+  - PlayerBullet
+  - EnemyBullet
+  - Invulnerable
+  - DelayedEnemy
+  - Wall
   - 
   - 
   - 
@@ -38,6 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1170798243
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: GamePlay
+    uniqueID: 206029801
+    locked: 0
+  - name: Effects
+    uniqueID: 3138423197
     locked: 0

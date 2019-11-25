@@ -13,9 +13,10 @@ public class StopMusicBackground : MonoBehaviour {
 		
 		playMusic = GetComponent<PlayMusic> ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    [System.Obsolete]
+    void Update () {
 		
 		if (Application.loadedLevel > 1) {
 			

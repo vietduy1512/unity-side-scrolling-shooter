@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
+[System.Obsolete]
 public class StagesGM : MonoBehaviour {
 
 	public float fadeSpeed = 1.5f;          // Speed that the screen fades to and from black.
@@ -60,8 +61,7 @@ public class StagesGM : MonoBehaviour {
 		GetComponent<GUITexture>().color = Color.Lerp(GetComponent<GUITexture>().color, Color.black, fadeSpeed * Time.deltaTime);
 	}
 
-
-	void StartScene ()
+    void StartScene ()
 	{
 		// Fade the texture to clear.
 		FadeToClear();
