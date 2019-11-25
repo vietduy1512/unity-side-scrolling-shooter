@@ -10,21 +10,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-
-        // NO MOVING HERE
         if (!isMoving) return;
 
         Vector3 pos = transform.position;
         Vector3 velocity;
 
+        var horMovement = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
+        var verMovement = -Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime;
+
         // SHIFT button to slow down
         if (Input.GetButton("Slow"))
         {
-            velocity = new Vector3(Input.GetAxis("Horizontal") * maxSpeed / 4 * Time.deltaTime, Input.GetAxis("Vertical") * maxSpeed / 4 * Time.deltaTime, 0);
+            velocity = new Vector3(verMovement / 4 , horMovement / 4, 0);
         }
         else
         {
-            velocity = new Vector3(Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime, Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime, 0);
+            velocity = new Vector3(verMovement, horMovement, 0);
         }
 
         pos += transform.rotation * velocity;
@@ -57,30 +58,4 @@ public class PlayerMovement : MonoBehaviour
         // FINALLY
         transform.position = pos;
     }
-
-
 }
-
-/*// ROTATE the ship.
-
-		// Grab our rotation quaternion
-		Quaternion rot = transform.rotation;
-
-		// Grab the Z euler angle
-		float z = rot.eulerAngles.z;
-
-		// Change the Z angle based on input
-		z -= Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
-
-		// Recreate the quaternion
-		rot = Quaternion.Euler( 0, 0, z );
-
-		// Feed the quaternion into our rotation
-		transform.rotation = rot;
-
-		// MOVE the ship.
-		Vector3 pos = transform.position;
-		 
-		Vector3 velocity = new Vector3(0, Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime, 0);
-
-		pos += rot * velocity;*/

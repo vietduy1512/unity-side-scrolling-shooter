@@ -41,7 +41,7 @@ public class PlayerSpawner : MonoBehaviour
 
         DeleteWall();
 
-        playerInstance = (GameObject)Instantiate(playerPrefab, transform.position, Quaternion.identity);
+        playerInstance = (GameObject)Instantiate(playerPrefab, transform.position, Quaternion.Euler(0, 0, -90));
     }
 
     // Update is called once per frame

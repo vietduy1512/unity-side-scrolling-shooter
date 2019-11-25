@@ -34,7 +34,7 @@ public class PlayerDamageHandle : MonoBehaviour
         }
 
         // INIT
-        Health = (GameObject)Instantiate(Health, transform.position, transform.rotation);
+        Health = (GameObject)Instantiate(Health, transform.position, Quaternion.identity);
         healthBar = Health.GetComponent<SpriteRenderer>();
         healthScale = healthBar.transform.localScale;
     }

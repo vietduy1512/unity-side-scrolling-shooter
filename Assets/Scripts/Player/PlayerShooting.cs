@@ -31,7 +31,7 @@ public class PlayerShooting : MonoBehaviour
     void Update()
     {
 
-        PointGun();
+        // PointGun();
 
         if (Input.GetButtonDown("Wall") && j < maxWalls)
         {
@@ -61,14 +61,12 @@ public class PlayerShooting : MonoBehaviour
 
     void Shooting()
     {
-        // NO SHOOTING HERE
         if (!isShooting) return;
 
         cooldownTimer -= Time.deltaTime;
 
-        if (Input.GetButton("Slow") && Input.GetMouseButton(0) && cooldownTimer <= 0)
+        if (Input.GetButton("Slow") && Input.GetButton("PlayerFire") && cooldownTimer <= 0)
         {
-            // SHOOT!
             GetComponent<AudioSource>().Play();
 
             cooldownTimer = fireDelay;
@@ -90,10 +88,8 @@ public class PlayerShooting : MonoBehaviour
             offset = transform.rotation * new Vector3(0.6f, 0, 0);
             Instantiate(bulletPrefab2, transform.position + offset, transform.rotation);
         }
-
-        else if (Input.GetMouseButton(0) && cooldownTimer <= 0)
+        else if (Input.GetButton("PlayerFire") && cooldownTimer <= 0)
         {
-            // SHOOT!
             GetComponent<AudioSource>().Play();
 
             cooldownTimer = fireDelay;
@@ -105,12 +101,14 @@ public class PlayerShooting : MonoBehaviour
 
             // Creat Bullets
             Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
+            /*
             // 2nd
             rot.eulerAngles = transform.eulerAngles + new Vector3(0, 0, 25);
             Instantiate(bulletPrefab, transform.position + offset, rot);
             // 3rd
             rot.eulerAngles = transform.eulerAngles + new Vector3(0, 0, -25);
             Instantiate(bulletPrefab, transform.position + offset, rot);
+            */
         }
     }
 }
