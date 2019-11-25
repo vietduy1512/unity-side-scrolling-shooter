@@ -1,19 +1,19 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class DelaySpawner : MonoBehaviour {
+public class DelaySpawner : MonoBehaviour
+{
+    public float delay;
 
-	public float delay;
+    // Use this for initialization
+    void Start()
+    {
 
-	// Use this for initialization
-	void Start () {
-		
-		gameObject.SetActive (false);
-		Invoke ("Spawn", delay);
-	}
+        gameObject.SetActive(false);
+        Invoke("Spawn", delay);
+    }
 
-	void Spawn()
-	{
-		gameObject.SetActive (true);
-	}
+    void Spawn()
+    {
+        gameObject.SetActive(true);
+    }
 }

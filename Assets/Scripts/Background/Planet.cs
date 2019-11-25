@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class Planet : MonoBehaviour {
-    //SAME AS STAR, FUCK IT
+public class Planet : MonoBehaviour
+{
+    //SAME AS STAR
     public float speed;
     public bool isMoving;
 
@@ -21,13 +21,15 @@ public class Planet : MonoBehaviour {
         min.y = min.y - GetComponent<SpriteRenderer>().sprite.bounds.extents.y;
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
 
         if (!isMoving)
             return;
@@ -38,11 +40,11 @@ public class Planet : MonoBehaviour {
 
         transform.position = position;
 
-        if(transform.position.y < min.y)
+        if (transform.position.y < min.y)
         {
             isMoving = false;
         }
-	}
+    }
 
     public void ResetPosition()
     {

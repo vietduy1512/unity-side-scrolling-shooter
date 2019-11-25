@@ -1,46 +1,53 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class ZoomInAndOut : MonoBehaviour {
+public class ZoomInAndOut : MonoBehaviour
+{
+    public float scaleSpeed = 1f;
 
-	public float scaleSpeed = 1f;
+    public float zoomDelay = 0.5f;
 
-	public float zoomDelay = 0.5f;
+    public float maxScale;
+    public float minScale;
 
-	public float maxScale;
-	public float minScale;
+    float delay;
+    bool isZoomIn = true;
 
-	float delay;
-	bool isZoomIn = true;
+    // Use this for initialization
+    void Start()
+    {
+        delay = zoomDelay;
+    }
 
-	// Use this for initialization
-	void Start () {
-		delay = zoomDelay;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		delay -= Time.deltaTime;
-		if (delay <= 0) {
-			if (isZoomIn) {
-				
-				delay = zoomDelay;
+    // Update is called once per frame
+    void Update()
+    {
+        delay -= Time.deltaTime;
+        if (delay <= 0)
+        {
+            if (isZoomIn)
+            {
 
-				if (transform.localScale.x >= maxScale) {
-					isZoomIn = false;
-					return;
-				}
-				transform.localScale += new Vector3 (0.01f * scaleSpeed, 0.01f * scaleSpeed, 0.01f * scaleSpeed);
-			} else {
-				
-				delay = zoomDelay;
+                delay = zoomDelay;
 
-				if (transform.localScale.x <= minScale) {
-					isZoomIn = true;
-					return;
-				}
-				transform.localScale -= new Vector3 (0.01f * scaleSpeed, 0.01f * scaleSpeed, 0.01f * scaleSpeed);
-			}
-		}
-	}
+                if (transform.localScale.x >= maxScale)
+                {
+                    isZoomIn = false;
+                    return;
+                }
+                transform.localScale += new Vector3(0.01f * scaleSpeed, 0.01f * scaleSpeed, 0.01f * scaleSpeed);
+            }
+            else
+            {
+
+                delay = zoomDelay;
+
+                if (transform.localScale.x <= minScale)
+                {
+                    isZoomIn = true;
+                    return;
+                }
+                transform.localScale -= new Vector3(0.01f * scaleSpeed, 0.01f * scaleSpeed, 0.01f * scaleSpeed);
+            }
+        }
+    }
 }

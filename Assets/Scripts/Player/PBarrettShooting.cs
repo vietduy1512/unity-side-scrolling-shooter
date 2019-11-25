@@ -1,60 +1,61 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class PBarrettShooting : MonoBehaviour {
+public class PBarrettShooting : MonoBehaviour
+{
+    public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
-	public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
+    public GameObject bulletPrefab;
 
-	public GameObject bulletPrefab;
+    public float rotSpeed = 180f;
 
-	public float rotSpeed = 180f;
+    public float fireDelay = 0.25f;
+    float cooldownTimer = 0;
 
-	public float fireDelay = 0.25f;
-	float cooldownTimer = 0;
+    void Start()
+    {
 
+    }
 
-	void Start() {
+    // Update is called once per frame
+    void Update()
+    {
 
-	}
+        PointGun();
+        cooldownTimer -= Time.deltaTime;
 
-	// Update is called once per frame
-	void Update () {
+        if (Input.GetMouseButton(0) && cooldownTimer <= 0)
+        {
+            // SHOOT!
+            cooldownTimer = fireDelay;
 
-		PointGun ();
-		cooldownTimer -= Time.deltaTime;
+            Vector3 offset = transform.rotation * bulletOffset;
 
-		if( Input.GetMouseButton(0) && cooldownTimer <= 0 ) {
-			// SHOOT!
-			cooldownTimer = fireDelay;
+            // Creat Bullets
+            Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
 
-			Vector3 offset = transform.rotation * bulletOffset;
+        }
+    }
 
-			// Creat Bullets
-			Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
+    void PointGun()
+    {
+        // MousePosition to point gun
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-		}
-	}
+        // Faces the mouse
+        Vector3 dir = mousePos - transform.position;
+        dir.Normalize();
 
-	void PointGun()
-	{
-		// MousePosition to point gun
-		Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        float zAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
 
-		// Faces the mouse
-		Vector3 dir = mousePos - transform.position;
-		dir.Normalize();
+        Quaternion desiredRot = Quaternion.Euler(0, 0, zAngle);
 
-		float zAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRot, rotSpeed * Time.deltaTime);
+    }
 
-		Quaternion desiredRot = Quaternion.Euler( 0, 0,zAngle );
-
-		transform.rotation = Quaternion.RotateTowards( transform.rotation, desiredRot, rotSpeed * Time.deltaTime);
-	}
-
-	public void MaxBarrett()
-	{
-		GameObject player = GameObject.Find ("PlayerShip(Clone)");
-		if(player != null)
-			player.GetComponent<PlacingBarrett> ().j--;
-	}
+    public void MaxBarrett()
+    {
+        GameObject player = GameObject.Find("PlayerShip(Clone)");
+        if (player != null)
+            player.GetComponent<PlacingBarrett>().j--;
+    }
 }

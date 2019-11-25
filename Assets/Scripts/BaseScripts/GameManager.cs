@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class GameManager : MonoBehaviour {
-
+public class GameManager : MonoBehaviour
+{
     public GameObject mainMenuUI;
     public GameObject stageSelection;
     public GameObject livesUI;
@@ -19,15 +18,17 @@ public class GameManager : MonoBehaviour {
 
     GameManagerState GMState;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         GMState = GameManagerState.Opening;
         mainMenuUI.SetActive(true);
-	}
-	
-	// Function to update the game manager state
-	void UpdateGameManagerState() {
-	    switch(GMState)
+    }
+
+    // Function to update the game manager state
+    void UpdateGameManagerState()
+    {
+        switch (GMState)
         {
             case GameManagerState.Opening:
 
@@ -63,7 +64,7 @@ public class GameManager : MonoBehaviour {
                 Stage01.SetActive(true);
                 break;
         }
-	}
+    }
 
     //Funtion to set the game manager state
     public void SetGameManagerState(GameManagerState state)
@@ -88,10 +89,10 @@ public class GameManager : MonoBehaviour {
     {
         //Turn on Lives
         livesUI.SetActive(true);
-        
+
         stageSelection.SetActive(false);
     }
-    
+
     // STAGEs for the Game
     public void StartStage01()
     {

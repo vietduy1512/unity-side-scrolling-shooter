@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class PlayerSpawnInvulnerable : MonoBehaviour {
-
+public class PlayerSpawnInvulnerable : MonoBehaviour
+{
     public float invulnPeriod = 0;
     float invulnTimer = 0;
 

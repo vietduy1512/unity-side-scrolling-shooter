@@ -1,28 +1,29 @@
-﻿using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;//For queue
+﻿using System.Collections.Generic;
+using UnityEngine;
 
-public class PlanetController : MonoBehaviour {
-
+public class PlanetController : MonoBehaviour
+{
     public GameObject[] Planets;
 
     public float countDown;
 
     Queue<GameObject> availablePlanets = new Queue<GameObject>();
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         availablePlanets.Enqueue(Planets[0]);
         availablePlanets.Enqueue(Planets[1]);
         availablePlanets.Enqueue(Planets[2]);
 
         InvokeRepeating("MovePlanetDown", 0, countDown);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     void MovePlanetDown()
     {
@@ -38,9 +39,9 @@ public class PlanetController : MonoBehaviour {
 
     void EnqueuePlanets()
     {
-        foreach(GameObject aPlanet in Planets)
+        foreach (GameObject aPlanet in Planets)
         {
-            if((aPlanet.transform.position.y < 0) && (!aPlanet.GetComponent<Planet>().isMoving))
+            if ((aPlanet.transform.position.y < 0) && (!aPlanet.GetComponent<Planet>().isMoving))
             {
                 aPlanet.GetComponent<Planet>().ResetPosition();
 

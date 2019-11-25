@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class MissilesDestruct : MonoBehaviour {
-
+public class MissilesDestruct : MonoBehaviour
+{
     public GameObject Explosion;
 
     public float timer = 1f;

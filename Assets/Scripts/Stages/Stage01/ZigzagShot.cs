@@ -1,29 +1,31 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class ZigzagShot : MonoBehaviour {
+public class ZigzagShot : MonoBehaviour
+{
+    public float rotSpeed = 0.1f;
 
-	public float rotSpeed = 0.1f;
+    public float degree = 180f;
 
-	public float degree = 180f;
+    float degreeCondition;
 
-	float degreeCondition;
+    void Start()
+    {
+        degreeCondition = degree;
+        transform.Rotate(0, 0, degree / 2);
+    }
 
-	void Start() {
-		degreeCondition = degree;
-		transform.Rotate (0, 0, degree / 2);
-	}
+    // Update is called once per frame
+    void Update()
+    {
 
-	// Update is called once per frame
-	void Update () {
+        if (degreeCondition >= degree || degreeCondition <= -degree)
+        {
 
-		if (degreeCondition >= degree || degreeCondition <= -degree) {
+            degreeCondition = 0;
+            rotSpeed = -rotSpeed;
+        }
+        degreeCondition += rotSpeed;
 
-			degreeCondition = 0;
-			rotSpeed = -rotSpeed;
-		}
-		degreeCondition += rotSpeed;
-
-		transform.Rotate (0, 0, rotSpeed);
-	}
+        transform.Rotate(0, 0, rotSpeed);
+    }
 }
