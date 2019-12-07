@@ -23,13 +23,11 @@ public class BossShoot01 : MonoBehaviour
         waveDelayTemp = waveDelay;
     }
 
-    // Update is called once per frame
     void Update()
     {
 
         if (player == null)
         {
-            // Find the player's ship!
             GameObject go = GameObject.FindWithTag("Player");
 
             if (go != null)
@@ -43,7 +41,6 @@ public class BossShoot01 : MonoBehaviour
 
         if (cooldownTimer <= 0 && player != null && Vector3.Distance(transform.position, player.position) < requirePosition)
         {
-            // SHOOT!
             cooldownTimer = fireDelay;
 
             Shoot();

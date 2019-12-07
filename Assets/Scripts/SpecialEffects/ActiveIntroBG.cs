@@ -6,7 +6,6 @@ public class ActiveIntroBG : MonoBehaviour
 
     public float timer = 5f;
 
-    // Update is called once per frame
     void Update()
     {
 

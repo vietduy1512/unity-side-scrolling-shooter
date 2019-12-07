@@ -6,12 +6,10 @@ public class FacesPlayer : MonoBehaviour
 
     Transform player;
 
-    // Update is called once per frame
     void Update()
     {
         if (player == null)
         {
-            // Find the player's ship!
             GameObject go = GameObject.FindWithTag("Player");
 
             if (go != null)
@@ -20,13 +18,10 @@ public class FacesPlayer : MonoBehaviour
             }
         }
 
-        // At this point, we've either found the player,
-        // or he/she doesn't exist right now.
-
         if (player == null)
-            return; // Try again next frame!
-
-        // HERE -- we know for sure we have a player. Turn to face it!
+        {
+            return;
+        }
 
         Vector3 dir = player.position - transform.position;
         dir.Normalize();

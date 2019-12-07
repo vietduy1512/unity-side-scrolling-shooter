@@ -9,7 +9,7 @@ public class MenuShowUp : MonoBehaviour
     Color startOptions;
 
     Vector3 pos;
-    // Use this for initialization
+
     void Start()
     {
 

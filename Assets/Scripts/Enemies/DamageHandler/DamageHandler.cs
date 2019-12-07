@@ -9,8 +9,8 @@ public class DamageHandler : MonoBehaviour
     public int health = 1;
     [HideInInspector] public float realHealth = 100;
 
-    private SpriteRenderer healthBar;           // Reference to the sprite renderer of the health bar.
-    private Vector3 healthScale;                // The local scale of the health bar initially (with full health).
+    private SpriteRenderer healthBar;
+    private Vector3 healthScale;
 
     public float invulnPeriod = 0.1f;
     float invulnTimer = 0;
@@ -22,8 +22,6 @@ public class DamageHandler : MonoBehaviour
     {
         correctLayer = gameObject.layer;
 
-        // NOTE!  This only get the renderer on the parent object.
-        // In other words, it doesn't work for children. I.E. "enemy01"
         spriteRend = GetComponent<SpriteRenderer>();
 
         if (spriteRend == null)
@@ -36,8 +34,7 @@ public class DamageHandler : MonoBehaviour
             }
         }
 
-        // INIT
-        Health = (GameObject)Instantiate(Health, transform.position, Quaternion.identity); // Create GO
+        Health = (GameObject)Instantiate(Health, transform.position, Quaternion.identity);
 
         if (gameObject.layer == 13)
             Health.transform.parent = transform;
@@ -61,7 +58,6 @@ public class DamageHandler : MonoBehaviour
 
     void Update()
     {
-        // Update the position of Health
         Health.transform.position = transform.position + healthOffset;
 
         if (invulnTimer > 0)
@@ -100,21 +96,16 @@ public class DamageHandler : MonoBehaviour
         Destroy(Health);
     }
 
-    //set explosion
     void PlayExplosion()
     {
         GameObject explosion = (GameObject)Instantiate(Explosion);
 
-        //set the position of the explosion
         explosion.transform.position = transform.position;
     }
 
     public void UpdateHealthBar()
     {
-        // Set the health bar's colour to proportion of the way between green and red based on the player's health.
         healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - realHealth * 0.01f);
-
-        // Set the scale of the health bar to be proportional to the player's health.
         healthBar.transform.localScale = new Vector3(healthScale.x * realHealth * 0.01f, 1, 1);
     }
 

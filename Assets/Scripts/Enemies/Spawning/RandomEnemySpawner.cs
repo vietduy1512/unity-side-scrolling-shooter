@@ -7,8 +7,8 @@ public class RandomEnemySpawner : MonoBehaviour
 
     [SerializeField] float spawnDistance = 12f;
 
-    [SerializeField] float nextEnemy = 5; //Time to respawn Enemies
-    [SerializeField] float beginEnemiesSpawn = 1; //Enemy in the begining
+    [SerializeField] float nextEnemy = 5;
+    [SerializeField] float beginEnemiesSpawn = 1;
 
     [SerializeField] int enemiesInOneWave = 2;
 
@@ -19,7 +19,6 @@ public class RandomEnemySpawner : MonoBehaviour
     bool notAppearing = true;
     Vector3[] offset = new Vector3[50];
 
-    //Init
     void Start()
     {
         num = maxWaves;
@@ -27,7 +26,6 @@ public class RandomEnemySpawner : MonoBehaviour
         nextEnemy += 2;
     }
 
-    // Update is called once per frame
     void Update()
     {
         beginEnemiesSpawn -= Time.deltaTime;
@@ -71,7 +69,7 @@ public class RandomEnemySpawner : MonoBehaviour
                 Appearance[j].transform.localScale += new Vector3(0.01f, 0.01f, 0.01f);
             }
         }
-        else if (num <= 0) //After the last wave, SELF DESTRUCT
+        else if (num <= 0)
         {
             Destroy(gameObject);
         }

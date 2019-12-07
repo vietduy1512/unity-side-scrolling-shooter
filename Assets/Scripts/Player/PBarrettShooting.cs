@@ -16,7 +16,6 @@ public class PBarrettShooting : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -25,12 +24,10 @@ public class PBarrettShooting : MonoBehaviour
 
         if (Input.GetMouseButton(0) && cooldownTimer <= 0)
         {
-            // SHOOT!
             cooldownTimer = fireDelay;
 
             Vector3 offset = transform.rotation * bulletOffset;
 
-            // Creat Bullets
             Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
 
         }
@@ -38,10 +35,8 @@ public class PBarrettShooting : MonoBehaviour
 
     void PointGun()
     {
-        // MousePosition to point gun
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        // Faces the mouse
         Vector3 dir = mousePos - transform.position;
         dir.Normalize();
 

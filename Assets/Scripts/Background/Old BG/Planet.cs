@@ -2,7 +2,6 @@
 
 public class Planet : MonoBehaviour
 {
-    //SAME AS STAR
     public float speed;
     public bool isMoving;
 
@@ -21,13 +20,11 @@ public class Planet : MonoBehaviour
         min.y = min.y - GetComponent<SpriteRenderer>().sprite.bounds.extents.y;
     }
 
-    // Use this for initialization
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
 

@@ -14,7 +14,6 @@ public class ZigzagShot : MonoBehaviour
         transform.Rotate(0, 0, degree / 2);
     }
 
-    // Update is called once per frame
     void Update()
     {
 

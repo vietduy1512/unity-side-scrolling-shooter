@@ -6,14 +6,12 @@ public class StopMusicBackground : MonoBehaviour
 
     public AnimationClip fadeColorAnimationClip;
 
-    // Use this for initialization
     void Start()
     {
 
         playMusic = GetComponent<PlayMusic>();
     }
 
-    // Update is called once per frame
     [System.Obsolete]
     void Update()
     {

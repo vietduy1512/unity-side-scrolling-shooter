@@ -7,7 +7,7 @@ public class ScaleAppearing : MonoBehaviour
     public float zoomDelay = 0.5f;
 
     float delay, maxScale;
-    // Use this for initialization
+
     void Start()
     {
 
@@ -17,7 +17,6 @@ public class ScaleAppearing : MonoBehaviour
         transform.localScale = new Vector3(0, 0, 0);
     }
 
-    // Update is called once per frame
     void Update()
     {
 

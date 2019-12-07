@@ -27,10 +27,8 @@ public class PlayerShooting : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
-
         // PointGun();
 
         if (Input.GetButtonDown("Wall") && j < maxWalls)
@@ -45,10 +43,8 @@ public class PlayerShooting : MonoBehaviour
 
     void PointGun()
     {
-        // MousePosition to point gun
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        // Faces the mouse
         Vector3 dir = mousePos - transform.position;
         dir.Normalize();
 

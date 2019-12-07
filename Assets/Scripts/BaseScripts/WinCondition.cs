@@ -6,7 +6,6 @@ public class WinCondition : MonoBehaviour
 
     public GameObject[] Enemies = new GameObject[10];
 
-    // Update is called once per frame
     void Update()
     {
 

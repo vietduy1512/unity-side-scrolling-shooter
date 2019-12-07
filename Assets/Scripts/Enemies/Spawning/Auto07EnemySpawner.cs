@@ -6,19 +6,17 @@ public class Auto07EnemySpawner : MonoBehaviour
     public GameObject appearPrefab;
     GameObject Appearance;
 
-    public float nextEnemy = 5; //Time to respawn Enemies
-    public float beginEnemiesSpawn = 1; //Enemy in the begining
+    public float nextEnemy = 5;
+    public float beginEnemiesSpawn = 1;
 
     bool notAppearing = true;
 
-    //Init
     void Start()
     {
         beginEnemiesSpawn += 2;
         nextEnemy += 2;
     }
 
-    // Update is called once per frame
     void Update()
     {
         beginEnemiesSpawn -= Time.deltaTime;
@@ -33,10 +31,6 @@ public class Auto07EnemySpawner : MonoBehaviour
 
             beginEnemiesSpawn = nextEnemy;
 
-            // decrease cooldown -- Nah
-            /*nextEnemy *= 0.9f;
-			if(nextEnemy < 2)
-				nextEnemy = 2;*/
             Instantiate(enemyPrefab, transform.position, Quaternion.identity);
             Destroy(Appearance);
 

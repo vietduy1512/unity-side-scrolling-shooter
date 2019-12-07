@@ -9,8 +9,6 @@ public class PlayerSpawnInvulnerable : MonoBehaviour
 
     void Start()
     {
-        // NOTE!  This only get the renderer on the parent object.
-        // In other words, it doesn't work for children. I.E. "enemy01"
         spriteRend = GetComponent<SpriteRenderer>();
 
         if (spriteRend == null)

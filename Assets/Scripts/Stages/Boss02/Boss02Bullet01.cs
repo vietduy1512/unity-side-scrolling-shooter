@@ -8,10 +8,9 @@ public class Boss02Bullet01 : MonoBehaviour
 
     public int maxFrames = 9;
 
-    float animated = 0.0828f;   // SPECIAL NUMBER
+    float animated = 0.0828f;
     float timer;
 
-    // Update is called once per frame
     void Update()
     {
 

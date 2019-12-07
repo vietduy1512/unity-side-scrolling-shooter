@@ -2,8 +2,8 @@
 
 public class MoveLeftWithRotation : MonoBehaviour
 {
-    public float speed = 5f;            //Speed of the scrolling
-    public float xStop = 1f;            //Stop position (0 to 500)
+    public float speed = 5f;
+    public float xStop = 1f;
 
     void Update()
     {

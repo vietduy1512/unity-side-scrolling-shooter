@@ -10,7 +10,6 @@ public class MoveUpAndDown : MonoBehaviour
 
     public float yRange = 6f;
 
-    // Use this for initialization
     void Start()
     {
         if (isScaleFollowGO)
@@ -19,7 +18,6 @@ public class MoveUpAndDown : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
 

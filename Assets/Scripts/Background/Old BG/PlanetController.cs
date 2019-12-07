@@ -9,7 +9,6 @@ public class PlanetController : MonoBehaviour
 
     Queue<GameObject> availablePlanets = new Queue<GameObject>();
 
-    // Use this for initialization
     void Start()
     {
         availablePlanets.Enqueue(Planets[0]);
@@ -19,7 +18,6 @@ public class PlanetController : MonoBehaviour
         InvokeRepeating("MovePlanetDown", 0, countDown);
     }
 
-    // Update is called once per frame
     void Update()
     {
 

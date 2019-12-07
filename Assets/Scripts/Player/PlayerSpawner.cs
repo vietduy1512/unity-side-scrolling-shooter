@@ -14,20 +14,15 @@ public class PlayerSpawner : MonoBehaviour
 
     float respawnTimer;
 
-    //Reference to the lives ui text
     public Text LivesUIText;
 
     public GameObject GameOver;
 
-    // Use this for initialization
     public void Start()
     {
         numLives = Lives;
-
-        //update the lives UI text
         LivesUIText.text = numLives.ToString();
 
-        //active player ?? 
         SpawnPlayer();
     }
 
@@ -36,7 +31,6 @@ public class PlayerSpawner : MonoBehaviour
         numLives--;
         respawnTimer = 1;
 
-        //Show number of lives left
         LivesUIText.text = numLives.ToString();
 
         DeleteWall();
@@ -44,7 +38,6 @@ public class PlayerSpawner : MonoBehaviour
         playerInstance = (GameObject)Instantiate(playerPrefab, transform.position, Quaternion.Euler(0, 0, -90));
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (playerInstance == null && numLives > 0)
@@ -59,9 +52,7 @@ public class PlayerSpawner : MonoBehaviour
         else if (playerInstance == null && numLives == 0)
         {
             gameObject.SetActive(false);
-            //Change to Game Over 
             GameOver.SetActive(true);
-            // Procedure back to stages selection
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
         }
     }

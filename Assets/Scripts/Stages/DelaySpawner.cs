@@ -4,7 +4,6 @@ public class DelaySpawner : MonoBehaviour
 {
     public float delay;
 
-    // Use this for initialization
     void Start()
     {
 

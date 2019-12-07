@@ -23,13 +23,11 @@ public class UFOShoot : MonoBehaviour
         waveDelayTemp = waveDelay;
     }
 
-    // Update is called once per frame
     void Update()
     {
 
         if (player == null)
         {
-            // Find the player's ship!
             GameObject go = GameObject.FindWithTag("Player");
 
             if (go != null)
@@ -39,7 +37,6 @@ public class UFOShoot : MonoBehaviour
         }
 
         cooldownTimer -= Time.deltaTime;
-        // Delay bullet wave
         if (i == 9 && waveDelayTemp <= 0)
         {
             i = 0;
@@ -49,8 +46,6 @@ public class UFOShoot : MonoBehaviour
 
         if (i != 9 && cooldownTimer <= 0 && player != null && Vector3.Distance(transform.position, player.position) < requirePosition)
         {
-            // SHOOT!
-            //Debug.Log ("Enemy Pew!");
             cooldownTimer = fireDelay;
             i++;
 

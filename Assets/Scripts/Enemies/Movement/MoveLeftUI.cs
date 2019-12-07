@@ -2,12 +2,11 @@
 
 public class MoveLeftUI : MonoBehaviour
 {
-    public float speed = 5f;            //Speed of the scrolling
-    public float xStop = 1f;            //Stop position (0 to 500)
+    public float speed = 5f;
+    public float xStop = 1f;
     void Update()
     {
         Vector3 pos = transform.position;
-        // If true == Stop here
         Vector3 condition = Camera.main.ScreenToWorldPoint(pos);
         if (condition.x < xStop)
             gameObject.GetComponent<MoveLeftUI>().enabled = false;

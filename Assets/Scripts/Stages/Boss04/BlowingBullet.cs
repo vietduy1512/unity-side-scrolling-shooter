@@ -17,13 +17,11 @@ public class BlowingBullet : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
 
         if (player == null)
         {
-            // Find the player's ship!
             GameObject go = GameObject.FindWithTag("Player");
 
             if (go != null)
@@ -36,8 +34,6 @@ public class BlowingBullet : MonoBehaviour
 
         if (cooldownTimer <= 0 && player != null && Vector3.Distance(transform.position, player.position) < requirePosition)
         {
-            // SHOOT!
-            //Debug.Log ("Enemy Pew!");
 
             CreateBullet();
             Destroy(gameObject);

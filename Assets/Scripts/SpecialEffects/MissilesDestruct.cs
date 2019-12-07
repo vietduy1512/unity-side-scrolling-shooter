@@ -21,7 +21,6 @@ public class MissilesDestruct : MonoBehaviour
     {
         GameObject explosion = (GameObject)Instantiate(Explosion);
 
-        //set the position of the explosion
         explosion.transform.position = transform.position;
     }
 }

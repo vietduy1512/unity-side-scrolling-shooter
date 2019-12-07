@@ -15,12 +15,11 @@ public class PlacingBarrett : MonoBehaviour
     [HideInInspector] public int j = 0;
 
     float tempPlacingCd = 0;
-    // Use this for initialization
+
     void Start()
     {
     }
 
-    // Update is called once per frame
     void Update()
     {
         tempPlacingCd -= Time.deltaTime;

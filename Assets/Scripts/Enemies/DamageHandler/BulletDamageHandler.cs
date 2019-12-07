@@ -26,12 +26,10 @@ public class BulletDamageHandler : MonoBehaviour
         Destroy(gameObject);
     }
 
-    //set explosion
     void PlayExplosion()
     {
         GameObject explosion = (GameObject)Instantiate(Explosion);
 
-        //set the position of the explosion
         explosion.transform.position = transform.position;
     }
 }

@@ -7,7 +7,6 @@ public class AudioManager : MonoBehaviour
 {
     public AudioMixer mixer;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (PlayerPrefs.HasKey("masterVol")) {
@@ -23,7 +22,6 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         

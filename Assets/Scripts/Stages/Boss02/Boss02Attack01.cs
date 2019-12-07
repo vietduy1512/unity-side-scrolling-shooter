@@ -26,7 +26,6 @@ public class Boss02Attack01 : MonoBehaviour
         attackWaveDelay += 2;
     }
 
-    // Update is called once per frame
     void Update()
     {
         beginAttackWave -= Time.deltaTime;
