@@ -2,17 +2,17 @@
 
 public class ThreeShotLong : MonoBehaviour
 {
-    public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
+    [SerializeField] Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public float requirePosition = 5f;
+    [SerializeField] float requirePosition = 5f;
 
-    public float fireDelay = 0.50f;
+    [SerializeField] float fireDelay = 0.50f;
 
-    public float maxWaves = 7;
+    [SerializeField] float maxWaves = 7;
 
-    public int angle = 15;
+    [SerializeField] int angle = 15;
 
     float cooldownTimer = 0;
 

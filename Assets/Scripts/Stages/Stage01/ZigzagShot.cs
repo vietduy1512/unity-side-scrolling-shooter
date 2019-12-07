@@ -2,9 +2,9 @@
 
 public class ZigzagShot : MonoBehaviour
 {
-    public float rotSpeed = 0.1f;
+    [SerializeField] float rotSpeed = 0.1f;
 
-    public float degree = 180f;
+    [SerializeField] float degree = 180f;
 
     float degreeCondition;
 

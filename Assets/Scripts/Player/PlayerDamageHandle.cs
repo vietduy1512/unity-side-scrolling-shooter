@@ -5,13 +5,13 @@ public class PlayerDamageHandle : MonoBehaviour
     public GameObject Explosion;
     public GameObject Health;
 
-    public int health = 1;
+    [SerializeField] int health = 1;
     private float realHealth = 100;
 
     private SpriteRenderer healthBar;
     private Vector3 healthScale;
 
-    public float invulnPeriod = 0;
+    [SerializeField] float invulnPeriod = 0;
     float invulnTimer = 0;
 
     SpriteRenderer spriteRend;

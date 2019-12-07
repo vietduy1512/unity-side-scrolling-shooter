@@ -2,13 +2,13 @@
 
 public class MeleeShoot03 : MonoBehaviour
 {
-    public Vector3 bulletOffset = new Vector3(0.5f, 0, 0);
+    [SerializeField] Vector3 bulletOffset = new Vector3(0.5f, 0, 0);
 
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public float requirePosition = 25f;
+    [SerializeField] float requirePosition = 25f;
 
-    public float fireDelay = 0f;
+    [SerializeField] float fireDelay = 0f;
 
     float cooldownTimer = 0;
 

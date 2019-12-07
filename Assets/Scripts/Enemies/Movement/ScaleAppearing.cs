@@ -2,9 +2,9 @@
 
 public class ScaleAppearing : MonoBehaviour
 {
-    public float scaleSpeed = 1f;
+    [SerializeField] float scaleSpeed = 1f;
 
-    public float zoomDelay = 0.5f;
+    [SerializeField] float zoomDelay = 0.5f;
 
     float delay, maxScale;
 

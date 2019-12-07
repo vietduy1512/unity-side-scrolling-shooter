@@ -2,12 +2,12 @@
 
 public class Auto07EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
-    public GameObject appearPrefab;
+    [SerializeField] GameObject enemyPrefab;
+    [SerializeField] GameObject appearPrefab;
     GameObject Appearance;
 
-    public float nextEnemy = 5;
-    public float beginEnemiesSpawn = 1;
+    [SerializeField] float nextEnemy = 5;
+    [SerializeField] float beginEnemiesSpawn = 1;
 
     bool notAppearing = true;
 

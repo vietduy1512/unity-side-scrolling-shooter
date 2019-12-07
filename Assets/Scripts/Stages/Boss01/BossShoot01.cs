@@ -2,13 +2,13 @@
 
 public class BossShoot01 : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public float requirePosition = 5f;
+    [SerializeField] float requirePosition = 5f;
 
-    public float fireDelay = 0.50f;
+    [SerializeField] float fireDelay = 0.50f;
 
-    public float waveDelay = 4f;
+    [SerializeField] float waveDelay = 4f;
     float cooldownTimer = 0f;
 
     int i = 0;

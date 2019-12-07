@@ -4,15 +4,15 @@ public class DamageHandler : MonoBehaviour
 {
     public GameObject Explosion;
     public GameObject Health;
-    public Vector3 healthOffset = new Vector3(-0.5f, 0.6f, 0);
+    [SerializeField] Vector3 healthOffset = new Vector3(-0.5f, 0.6f, 0);
 
-    public int health = 1;
+    [SerializeField] int health = 1;
     [HideInInspector] public float realHealth = 100;
 
     private SpriteRenderer healthBar;
     private Vector3 healthScale;
 
-    public float invulnPeriod = 0.1f;
+    [SerializeField] float invulnPeriod = 0.1f;
     float invulnTimer = 0;
     int correctLayer;
 

@@ -2,7 +2,7 @@
 
 public class PlayerSpawnInvulnerable : MonoBehaviour
 {
-    public float invulnPeriod = 0;
+    [SerializeField] float invulnPeriod = 0;
     float invulnTimer = 0;
 
     SpriteRenderer spriteRend;

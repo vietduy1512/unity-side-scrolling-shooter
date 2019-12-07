@@ -2,13 +2,13 @@
 
 public class ThreeShot : MonoBehaviour
 {
-    public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
+    [SerializeField] Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public float requirePosition = 5f;
+    [SerializeField] float requirePosition = 5f;
 
-    public float fireDelay = 0.50f;
+    [SerializeField] float fireDelay = 0.50f;
 
     float cooldownTimer = 0;
 

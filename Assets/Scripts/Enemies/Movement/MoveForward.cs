@@ -2,7 +2,7 @@
 
 public class MoveForward : MonoBehaviour
 {
-    public float maxSpeed = 5f;
+    [SerializeField] float maxSpeed = 5f;
 
     void Update()
     {

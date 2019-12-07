@@ -2,9 +2,9 @@
 
 public class BulletDamageHandler : MonoBehaviour
 {
-    public GameObject Explosion;
+    [SerializeField] GameObject Explosion;
 
-    public int health = 1;
+    [SerializeField] int health = 1;
 
     void OnTriggerEnter2D()
     {

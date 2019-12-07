@@ -2,15 +2,15 @@
 
 public class UFOShoot : MonoBehaviour
 {
-    public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
+    [SerializeField] Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public float requirePosition = 5f;
+    [SerializeField] float requirePosition = 5f;
 
-    public float fireDelay = 0.50f;
+    [SerializeField] float fireDelay = 0.50f;
 
-    public float waveDelay = 3f;
+    [SerializeField] float waveDelay = 3f;
     float cooldownTimer = 0;
 
     int i = 0;

@@ -2,13 +2,14 @@
 
 public class PBarrettShooting : MonoBehaviour
 {
-    public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
+    [SerializeField] Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public float rotSpeed = 180f;
+    [SerializeField] float rotSpeed = 180f;
 
-    public float fireDelay = 0.25f;
+    [SerializeField] float fireDelay = 0.25f;
+
     float cooldownTimer = 0;
 
     void Start()

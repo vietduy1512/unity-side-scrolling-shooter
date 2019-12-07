@@ -2,9 +2,9 @@
 
 public class ActiveIntroBG : MonoBehaviour
 {
-    public float speed = 0.1f;
+    [SerializeField] float speed = 0.1f;
 
-    public float timer = 5f;
+    [SerializeField] float timer = 5f;
 
     void Update()
     {

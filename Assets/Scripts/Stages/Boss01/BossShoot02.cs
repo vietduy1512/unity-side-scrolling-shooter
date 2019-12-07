@@ -2,7 +2,7 @@
 
 public class BossShoot02 : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
     void Start()
     {

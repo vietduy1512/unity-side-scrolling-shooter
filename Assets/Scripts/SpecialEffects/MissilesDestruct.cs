@@ -2,9 +2,9 @@
 
 public class MissilesDestruct : MonoBehaviour
 {
-    public GameObject Explosion;
+    [SerializeField] GameObject Explosion;
 
-    public float timer = 1f;
+    [SerializeField] float timer = 1f;
 
     void Update()
     {

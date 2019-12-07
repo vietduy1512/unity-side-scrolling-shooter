@@ -2,9 +2,9 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float maxSpeed = 5f;
+    [SerializeField] float maxSpeed = 5f;
 
-    public bool isMoving = true;
+    [SerializeField] bool isMoving = true;
 
     float shipBoundaryRadius = 0.5f;
 

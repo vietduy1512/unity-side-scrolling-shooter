@@ -2,23 +2,23 @@
 
 public class PlayerShooting : MonoBehaviour
 {
-    public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
+    [SerializeField] Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public GameObject bulletPrefab2;
+    [SerializeField] GameObject bulletPrefab2;
 
-    public GameObject wallPrefab;
+    [SerializeField] GameObject wallPrefab;
 
-    public float rotSpeed = 180f;
+    [SerializeField] float rotSpeed = 180f;
 
-    public float fireDelay = 0.25f;
+    [SerializeField] float fireDelay = 0.25f;
 
-    public float maxWalls = 2;
+    [SerializeField] float maxWalls = 2;
 
     float cooldownTimer = 0;
 
-    public bool isShooting = true;
+    [SerializeField] bool isShooting = true;
 
     int j = 0;
 

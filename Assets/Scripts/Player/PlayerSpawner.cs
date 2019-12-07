@@ -3,20 +3,21 @@ using UnityEngine.UI;
 
 public class PlayerSpawner : MonoBehaviour
 {
-    public GameObject playerPrefab;
+    [SerializeField] GameObject playerPrefab;
+
+    [SerializeField] int Lives = 4;
+
+    [SerializeField] Text LivesUIText;
+
+    [SerializeField] GameObject GameOver;
 
     GameObject playerInstance;
 
     int correctLayer;
 
-    public int Lives = 4;
     int numLives;
 
     float respawnTimer;
-
-    public Text LivesUIText;
-
-    public GameObject GameOver;
 
     public void Start()
     {

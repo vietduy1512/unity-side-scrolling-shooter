@@ -2,9 +2,9 @@
 
 public class WinCondition : MonoBehaviour
 {
-    public GameObject Win;
+    [SerializeField] GameObject Win;
 
-    public GameObject[] Enemies = new GameObject[10];
+    [SerializeField] GameObject[] Enemies = new GameObject[10];
 
     void Update()
     {

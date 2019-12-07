@@ -2,7 +2,7 @@
 
 public class BossBullet01 : MonoBehaviour
 {
-    public float delayShoot = 3f;
+    [SerializeField] float delayShoot = 3f;
 
     void Start()
     {

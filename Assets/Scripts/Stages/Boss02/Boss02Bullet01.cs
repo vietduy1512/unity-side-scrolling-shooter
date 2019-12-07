@@ -4,9 +4,9 @@ public class Boss02Bullet01 : MonoBehaviour
 {
     int i = 0;
     GameObject previousGO;
-    public GameObject[] GO = new GameObject[50];
+    [SerializeField] GameObject[] GO = new GameObject[50];
 
-    public int maxFrames = 9;
+    [SerializeField] int maxFrames = 9;
 
     float animated = 0.0828f;
     float timer;

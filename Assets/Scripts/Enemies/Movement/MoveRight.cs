@@ -2,8 +2,8 @@
 
 public class MoveRight : MonoBehaviour
 {
-    public float speed = 5f;
-    public float xStop = 1f;
+    [SerializeField] float speed = 5f;
+    [SerializeField] float xStop = 1f;
 
     void Update()
     {

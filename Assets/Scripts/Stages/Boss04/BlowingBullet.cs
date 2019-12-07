@@ -2,13 +2,13 @@
 
 public class BlowingBullet : MonoBehaviour
 {
-    public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
+    [SerializeField] Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
-    public float requirePosition = 10f;
+    [SerializeField] float requirePosition = 10f;
 
-    public float cooldownTimer = 4f;
+    [SerializeField] float cooldownTimer = 4f;
 
     Transform player;
 

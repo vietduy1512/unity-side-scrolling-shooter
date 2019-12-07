@@ -3,7 +3,7 @@
 [System.Obsolete]
 public class SceneFadeInOut : MonoBehaviour
 {
-    public float fadeSpeed = 1.5f;
+    [SerializeField] float fadeSpeed = 1.5f;
 
     private bool sceneStarting = true;
 

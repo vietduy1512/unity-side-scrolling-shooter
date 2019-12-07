@@ -3,16 +3,16 @@
 public class Boss02Attack02 : MonoBehaviour
 {
 
-    public GameObject enemyPrefab;
-    public GameObject appearPrefab;
+    [SerializeField] GameObject enemyPrefab;
+    [SerializeField] GameObject appearPrefab;
     GameObject[] Appearance = new GameObject[5];
 
-    public float spawnDistance = 12f;
+    [SerializeField] float spawnDistance = 12f;
 
-    public float beginAttackWave = 1; //Enemy in the begining
-    public float attackWaveDelay = 5f;
+    [SerializeField] float beginAttackWave = 1; //Enemy in the begining
+    [SerializeField] float attackWaveDelay = 5f;
 
-    public int maxAttacks; //Max enemies
+    [SerializeField] int maxAttacks; //Max enemies
 
     GameObject player;
 

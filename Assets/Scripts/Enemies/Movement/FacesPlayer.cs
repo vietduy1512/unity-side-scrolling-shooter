@@ -2,7 +2,7 @@
 
 public class FacesPlayer : MonoBehaviour
 {
-    public float rotSpeed = 90f;
+    [SerializeField] float rotSpeed = 90f;
 
     Transform player;
 

@@ -2,11 +2,11 @@
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject mainMenuUI;
-    public GameObject stageSelection;
-    public GameObject livesUI;
-    public GameObject GameOver;
-    public GameObject Stage01;
+    [SerializeField] GameObject mainMenuUI;
+    [SerializeField] GameObject stageSelection;
+    [SerializeField] GameObject livesUI;
+    [SerializeField] GameObject GameOver;
+    [SerializeField] GameObject Stage01;
 
     public enum GameManagerState
     {

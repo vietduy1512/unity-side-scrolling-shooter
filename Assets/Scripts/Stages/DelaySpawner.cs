@@ -2,7 +2,7 @@
 
 public class DelaySpawner : MonoBehaviour
 {
-    public float delay;
+    [SerializeField] float delay;
 
     void Start()
     {

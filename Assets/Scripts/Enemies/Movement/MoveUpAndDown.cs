@@ -2,13 +2,13 @@
 
 public class MoveUpAndDown : MonoBehaviour
 {
-    public bool moveUp;
+    [SerializeField] bool moveUp;
 
-    public bool isScaleFollowGO = true;
+    [SerializeField] bool isScaleFollowGO = true;
 
-    public float maxSpeed = 5f;
+    [SerializeField] float maxSpeed = 5f;
 
-    public float yRange = 6f;
+    [SerializeField] float yRange = 6f;
 
     void Start()
     {

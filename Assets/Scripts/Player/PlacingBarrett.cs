@@ -2,13 +2,13 @@
 
 public class PlacingBarrett : MonoBehaviour
 {
-    public GameObject barrettPrefab1;
+    [SerializeField] GameObject barrettPrefab1;
 
-    public GameObject barrettPrefab2;
+    [SerializeField] GameObject barrettPrefab2;
 
-    public float placingCooldown = 5f;
+    [SerializeField] float placingCooldown = 5f;
 
-    public int maxBarretts = 2;
+    [SerializeField] int maxBarretts = 2;
 
     int i = 1;
 

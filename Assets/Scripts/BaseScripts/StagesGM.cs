@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class StagesGM : MonoBehaviour
 {
-    public float fadeSpeed = 1.5f;
+    [SerializeField] float fadeSpeed = 1.5f;
 
-    public GameObject gameOverUI;
-    public GameObject gamePlayUI;
-    public GameObject winUI;
+    [SerializeField] GameObject gameOverUI;
+    [SerializeField] GameObject gamePlayUI;
+    [SerializeField] GameObject winUI;
 
     private bool sceneStarting = true;
     private bool sceneEnding = false;
