@@ -10,7 +10,7 @@ public class PauseMenu : MonoBehaviour
 
     public string mainMenuScene;
 
-    private bool isPaused;
+    private bool isPaused = false;
 
     public GameObject loadingScreen, loadingIcon;
 
@@ -32,7 +32,16 @@ public class PauseMenu : MonoBehaviour
     {
         isPaused = !isPaused;
         pauseScreen.SetActive(isPaused);
-        Time.timeScale = isPaused ? 0f : 1f;
+        if (isPaused)
+        {
+            Time.timeScale = 0f;
+            StagesGM.PauseAudio();
+        }
+        else
+        {
+            Time.timeScale = 1f;
+            StagesGM.ResumeAudio();
+        }
     }
 
     public void OpenOptions()

@@ -23,10 +23,13 @@ public class StagesGM : MonoBehaviour
 
     Image layer;
 
+    static AudioSource audio;
+
     void Awake()
     {
         layer = curtainLayer.GetComponent<Image>();
         curtainLayer.SetActive(true);
+        audio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -53,7 +56,6 @@ public class StagesGM : MonoBehaviour
         //}
     }
 
-
     void FadeToClear()
     {
         if (GetComponent<AudioSource>().volume < 1)
@@ -62,7 +64,6 @@ public class StagesGM : MonoBehaviour
         }
         layer.color = Color.Lerp(layer.color, Color.clear, fadeSpeed * Time.deltaTime);
     }
-
 
     void FadeToBlack()
     {
@@ -107,5 +108,15 @@ public class StagesGM : MonoBehaviour
         winUI.SetActive(false);
         sceneStarting = false;
         sceneEnding = true;
+    }
+
+    public static void PauseAudio()
+    {
+        audio.Pause();
+    }
+
+    public static void ResumeAudio()
+    {
+        audio.Play();
     }
 }

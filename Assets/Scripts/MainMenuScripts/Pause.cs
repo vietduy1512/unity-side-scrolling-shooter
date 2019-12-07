@@ -31,6 +31,7 @@ public class Pause : MonoBehaviour
     {
         isPaused = true;
         Time.timeScale = 0;
+        StagesGM.PauseAudio();
         showPanels.ShowPausePanel();
     }
 
@@ -39,6 +40,7 @@ public class Pause : MonoBehaviour
     {
         isPaused = false;
         Time.timeScale = 1;
+        StagesGM.PauseAudio();
         showPanels.HidePausePanel();
     }
 }
