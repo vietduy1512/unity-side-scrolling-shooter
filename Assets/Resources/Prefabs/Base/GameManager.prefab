@@ -2722,13 +2722,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0acde4d814d50314ea9de0c6a2e2f636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initFireDelay: 0.3
+  initFireRate: 0.3
   initMoveSpeed: 7
   initHealth: 5
+  initMaxBarretts: 0
   initMaxShields: 0
-  fireDelayUpgradeOffset: -0.05
+  fireRateUpgradeOffset: -0.05
   moveSpeedUpgradeOffset: 1
   healthUpgradeOffset: 5
+  maxBarrettsOffset: 1
   maxShieldsOffset: 1
 --- !u!1001 &5356536751574765665
 PrefabInstance:
@@ -2740,7 +2742,7 @@ PrefabInstance:
     - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_Name
-      value: Shooting speed Item
+      value: Fire rate Item
       objectReference: {fileID: 0}
     - target: {fileID: 4403142416065336042, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
@@ -2846,6 +2848,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8017498210270292850}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: upgradeFireDelay
       objectReference: {fileID: 0}
     - target: {fileID: 1555740109, guid: 2e4951e7224de3f438c827fc13e04622, type: 3}
       propertyPath: m_Text
@@ -3127,6 +3139,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8017498210270292850}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: upgradeMaxShields
+      objectReference: {fileID: 0}
     - target: {fileID: 1555740109, guid: 2e4951e7224de3f438c827fc13e04622, type: 3}
       propertyPath: m_Text
       value: Add shield
@@ -3255,6 +3277,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8017498210270292850}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: upgradeBarrett
       objectReference: {fileID: 0}
     - target: {fileID: 1555740109, guid: 2e4951e7224de3f438c827fc13e04622, type: 3}
       propertyPath: m_Text
@@ -3680,6 +3712,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8017498210270292850}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: upgradeMoveSpeed
+      objectReference: {fileID: 0}
     - target: {fileID: 1555740109, guid: 2e4951e7224de3f438c827fc13e04622, type: 3}
       propertyPath: m_Text
       value: Upgrade move speed
@@ -4093,6 +4135,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8017498210270292850}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: upgradeHealth
       objectReference: {fileID: 0}
     - target: {fileID: 1555740109, guid: 2e4951e7224de3f438c827fc13e04622, type: 3}
       propertyPath: m_Text

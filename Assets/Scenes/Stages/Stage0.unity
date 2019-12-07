@@ -187,18 +187,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8596570666421383220}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &376638033 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8017498210270292850, guid: d400daed9fdd0d04b81e981f45da9e34,
-    type: 3}
-  m_PrefabInstance: {fileID: 8596570666421383220}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0acde4d814d50314ea9de0c6a2e2f636, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &632201254 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 632201254, guid: d400daed9fdd0d04b81e981f45da9e34,
@@ -476,61 +464,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8596570665622422154, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_Name
-      value: Fire rate Item
-      objectReference: {fileID: 0}
-    - target: {fileID: 3476839954816740092, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376638033}
-    - target: {fileID: 3476839954816740092, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: upgradeFireDelay
-      objectReference: {fileID: 0}
-    - target: {fileID: 962412656523320074, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376638033}
-    - target: {fileID: 962412656523320074, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: upgradeMoveSpeed
-      objectReference: {fileID: 0}
-    - target: {fileID: 962412657339893966, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376638033}
-    - target: {fileID: 962412657339893966, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: upgradeHealth
-      objectReference: {fileID: 0}
-    - target: {fileID: 962412655447433997, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376638033}
-    - target: {fileID: 962412655447433997, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: upgradeBarrett
-      objectReference: {fileID: 0}
-    - target: {fileID: 962412655610736147, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 376638033}
-    - target: {fileID: 962412655610736147, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: upgradeMaxShields
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d400daed9fdd0d04b81e981f45da9e34, type: 3}
