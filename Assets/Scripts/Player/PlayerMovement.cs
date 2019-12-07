@@ -2,8 +2,6 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float maxSpeed = 5f;
-
     [SerializeField] bool isMoving = true;
 
     float shipBoundaryRadius = 0.5f;
@@ -15,8 +13,8 @@ public class PlayerMovement : MonoBehaviour
         Vector3 pos = transform.position;
         Vector3 velocity;
 
-        var horMovement = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
-        var verMovement = -Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime;
+        var horMovement = Input.GetAxis("Horizontal") * PlayerUpgradeManager.moveSpeed * Time.deltaTime;
+        var verMovement = -Input.GetAxis("Vertical") * PlayerUpgradeManager.moveSpeed * Time.deltaTime;
 
         // SHIFT button to slow down
         if (Input.GetButton("Slow"))

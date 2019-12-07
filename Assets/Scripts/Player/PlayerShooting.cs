@@ -10,11 +10,6 @@ public class PlayerShooting : MonoBehaviour
 
     [SerializeField] GameObject wallPrefab;
 
-    [SerializeField] float rotSpeed = 180f;
-
-    [SerializeField] float fireDelay = 0.25f;
-
-    [SerializeField] float maxWalls = 2;
 
     float cooldownTimer = 0;
 
@@ -29,30 +24,13 @@ public class PlayerShooting : MonoBehaviour
 
     void Update()
     {
-        // PointGun();
-
-        if (Input.GetButtonDown("Wall") && j < maxWalls)
+        if (Input.GetButtonDown("Wall") && j < PlayerUpgradeManager.maxShields)
         {
             Instantiate(wallPrefab, transform.position + transform.rotation * new Vector3(0, 1f, 0), transform.rotation);
             j++;
         }
 
         Shooting();
-
-    }
-
-    void PointGun()
-    {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        Vector3 dir = mousePos - transform.position;
-        dir.Normalize();
-
-        float zAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
-
-        Quaternion desiredRot = Quaternion.Euler(0, 0, zAngle);
-        if (Input.GetButton("Slow")) transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRot, rotSpeed * Time.deltaTime);
-        else transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRot, rotSpeed / 4 * Time.deltaTime);
     }
 
     void Shooting()
@@ -65,7 +43,7 @@ public class PlayerShooting : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
 
-            cooldownTimer = fireDelay;
+            cooldownTimer = PlayerUpgradeManager.fireRate;
 
             Vector3 offset = transform.rotation * bulletOffset;
 
@@ -88,7 +66,7 @@ public class PlayerShooting : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
 
-            cooldownTimer = fireDelay;
+            cooldownTimer = PlayerUpgradeManager.fireRate;
 
             Vector3 offset = transform.rotation * bulletOffset;
 

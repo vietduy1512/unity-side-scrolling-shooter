@@ -8,8 +8,6 @@ public class PBarrettShooting : MonoBehaviour
 
     [SerializeField] float rotSpeed = 180f;
 
-    [SerializeField] float fireDelay = 0.25f;
-
     float cooldownTimer = 0;
 
     void Start()
@@ -19,13 +17,12 @@ public class PBarrettShooting : MonoBehaviour
 
     void Update()
     {
-
         PointGun();
         cooldownTimer -= Time.deltaTime;
 
-        if (Input.GetMouseButton(0) && cooldownTimer <= 0)
+        if (Input.GetButton("PlayerFire") && cooldownTimer <= 0)
         {
-            cooldownTimer = fireDelay;
+            cooldownTimer = PlayerUpgradeManager.fireRate * 2;
 
             Vector3 offset = transform.rotation * bulletOffset;
 
@@ -52,6 +49,6 @@ public class PBarrettShooting : MonoBehaviour
     {
         GameObject player = GameObject.Find("PlayerShip(Clone)");
         if (player != null)
-            player.GetComponent<PlacingBarrett>().j--;
+            player.GetComponent<PlacingBarrett>().currentBarrettsCount--;
     }
 }

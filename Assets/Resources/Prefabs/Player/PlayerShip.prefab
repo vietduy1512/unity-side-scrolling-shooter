@@ -298,9 +298,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 104518, guid: e60cb7cea54d4084cb43ec19a09e2593, type: 3}
   bulletPrefab2: {fileID: 145436, guid: 3e5df4ba11f9d944c925554257bbec4e, type: 3}
   wallPrefab: {fileID: 130062, guid: 532edfba281454d438fcb2ce568027ab, type: 3}
-  rotSpeed: 2000
-  fireDelay: 0.15
-  maxWalls: 3
   isShooting: 1
 --- !u!82 &8288832
 AudioSource:
@@ -547,7 +544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 252d13b9c7563784ab00fac2fbb0c850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 13
+  maxSpeed: 15
   isMoving: 1
 --- !u!114 &11407346
 MonoBehaviour:
@@ -576,7 +573,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 114990, guid: b7e359b0b01c27f49b830c084e86a7c5, type: 3}
   Health: {fileID: 8152818921437703260, guid: 1d613d8917919df40b8f54c74ceb1d69, type: 3}
-  health: 15
   invulnPeriod: 0.1
 --- !u!114 &11438122
 MonoBehaviour:

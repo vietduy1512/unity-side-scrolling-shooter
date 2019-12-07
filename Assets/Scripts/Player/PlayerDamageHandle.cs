@@ -5,7 +5,6 @@ public class PlayerDamageHandle : MonoBehaviour
     public GameObject Explosion;
     public GameObject Health;
 
-    [SerializeField] int health = 1;
     private float realHealth = 100;
 
     private SpriteRenderer healthBar;
@@ -37,7 +36,7 @@ public class PlayerDamageHandle : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        realHealth -= 100f / health;
+        realHealth -= 100f / PlayerUpgradeManager.health;
 
         UpdateHealthBar();
 

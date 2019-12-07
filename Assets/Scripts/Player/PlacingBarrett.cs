@@ -8,11 +8,10 @@ public class PlacingBarrett : MonoBehaviour
 
     [SerializeField] float placingCooldown = 5f;
 
-    [SerializeField] int maxBarretts = 2;
 
-    int i = 1;
+    int barretIndex = 1;
 
-    [HideInInspector] public int j = 0;
+    [HideInInspector] public int currentBarrettsCount = 0;
 
     float tempPlacingCd = 0;
 
@@ -24,24 +23,26 @@ public class PlacingBarrett : MonoBehaviour
     {
         tempPlacingCd -= Time.deltaTime;
 
-        if (j >= maxBarretts)
+        if (currentBarrettsCount >= PlayerUpgradeManager.maxBarretts)
             return;
 
         if ((Input.GetButtonDown("Barrett") || Input.GetMouseButton(1)) && tempPlacingCd <= 0)
         {
             tempPlacingCd = placingCooldown;
-            if (i == 1)
-            {
-                Instantiate(barrettPrefab1, transform.position, transform.rotation);
-                i++;
-                j++;
-            }
-            else
-            {
-                Instantiate(barrettPrefab2, transform.position, transform.rotation);
-                i--;
-                j++;
-            }
+            Instantiate(barrettPrefab2, transform.position, transform.rotation);
+            currentBarrettsCount++;
+            //if (barretIndex == 1)
+            //{
+            //    Instantiate(barrettPrefab1, transform.position, transform.rotation);
+            //    barretIndex++;
+            //    currentBarrettsCount++;
+            //}
+            //else
+            //{
+            //    Instantiate(barrettPrefab2, transform.position, transform.rotation);
+            //    barretIndex--;
+            //    currentBarrettsCount++;
+            //}
         }
     }
 }
