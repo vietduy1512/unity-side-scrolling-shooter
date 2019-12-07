@@ -15,6 +15,7 @@ public class StagesGM : MonoBehaviour
 
     [SerializeField] GameObject gameOverUI;
     [SerializeField] GameObject gamePlayUI;
+    [SerializeField] GameObject curtainLayer;
     [SerializeField] GameObject winUI;
 
     private bool sceneStarting = true;
@@ -24,8 +25,8 @@ public class StagesGM : MonoBehaviour
 
     void Awake()
     {
-        layer = gamePlayUI.GetComponent<Image>();
-        gamePlayUI.SetActive(true);
+        layer = curtainLayer.GetComponent<Image>();
+        curtainLayer.SetActive(true);
     }
 
     void Update()
@@ -102,7 +103,7 @@ public class StagesGM : MonoBehaviour
     public void ChangeToStagesSelection()
     {
         gameOverUI.SetActive(false);
-        //gamePlayUI.SetActive(false);
+        gamePlayUI.SetActive(false);
         winUI.SetActive(false);
         sceneStarting = false;
         sceneEnding = true;
