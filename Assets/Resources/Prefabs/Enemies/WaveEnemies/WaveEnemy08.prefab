@@ -95,8 +95,8 @@ GameObject:
   - component: {fileID: 6073136}
   - component: {fileID: 5070362}
   m_Layer: 9
-  m_Name: Enemy08
-  m_TagString: Untagged
+  m_Name: WaveEnemy08
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

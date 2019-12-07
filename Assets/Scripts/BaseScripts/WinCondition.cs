@@ -4,21 +4,20 @@ public class WinCondition : MonoBehaviour
 {
     [SerializeField] GameObject Win;
 
-    [SerializeField] GameObject[] Enemies = new GameObject[10];
+    [SerializeField] float time = 100;
 
     void Update()
     {
-
-        for (int i = 0; i < Enemies.Length; i++)
+        time -= Time.deltaTime;
+        if (time < 0)
         {
-
-            if (Enemies[i] != null)
+            var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            if (enemies.Length == 0)
             {
-                return;
+                Invoke("Wining", 1f);
+                GetComponent<WinCondition>().enabled = false;
             }
         }
-        Invoke("Wining", 7f);
-        GetComponent<WinCondition>().enabled = false;
     }
 
     void Wining()

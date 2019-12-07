@@ -95,8 +95,8 @@ GameObject:
   - component: {fileID: 5099918}
   - component: {fileID: 11417416}
   m_Layer: 9
-  m_Name: Enemy11(Melee)
-  m_TagString: Untagged
+  m_Name: WaveEnemy11(Melee)
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

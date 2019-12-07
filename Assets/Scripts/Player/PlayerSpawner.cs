@@ -5,8 +5,6 @@ public class PlayerSpawner : MonoBehaviour
 {
     [SerializeField] GameObject playerPrefab;
 
-    [SerializeField] int Lives = 4;
-
     [SerializeField] Text LivesUIText;
 
     [SerializeField] GameObject GameOver;
@@ -21,7 +19,7 @@ public class PlayerSpawner : MonoBehaviour
 
     public void Start()
     {
-        numLives = Lives;
+        numLives = StagesGM.playerLives;
         LivesUIText.text = numLives.ToString();
 
         SpawnPlayer();

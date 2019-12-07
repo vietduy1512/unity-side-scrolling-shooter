@@ -12,7 +12,6 @@ public class ZoomInAndOut : MonoBehaviour
     float delay;
     bool isZoomIn = true;
 
-    // Use this for initialization
     void Start()
     {
         delay = zoomDelay;

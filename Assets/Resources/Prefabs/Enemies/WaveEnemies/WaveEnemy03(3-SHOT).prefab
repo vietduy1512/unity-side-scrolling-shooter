@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 5046388}
   - component: {fileID: 11464588}
   m_Layer: 9
-  m_Name: Enemy03(3-SHOT)
-  m_TagString: Untagged
+  m_Name: WaveEnemy03(3-SHOT)
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

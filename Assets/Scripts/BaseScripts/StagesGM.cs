@@ -3,6 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class StagesGM : MonoBehaviour
 {
+    public static int lastStage = 2;
+
+    public static int playerLives = 2;
+
+    public static bool stageCleared = false;
+
+    [SerializeField] int stageNumber;
     [SerializeField] float fadeSpeed = 1.5f;
 
     [SerializeField] GameObject gameOverUI;
@@ -16,25 +23,24 @@ public class StagesGM : MonoBehaviour
     {
     }
 
-
     void Update()
     {
         if (sceneStarting)
             StartScene();
         if (sceneEnding)
             EndScene();
-        if (Input.GetButtonDown("Cancel"))
-        {
+        //if (Input.GetButtonDown("Cancel"))
+        //{
 
-            if (Time.timeScale == 0)
-            {
-                GetComponent<AudioSource>().Play();
-            }
-            else
-            {
-                GetComponent<AudioSource>().Pause();
-            }
-        }
+        //    if (Time.timeScale == 0)
+        //    {
+        //        GetComponent<AudioSource>().Play();
+        //    }
+        //    else
+        //    {
+        //        GetComponent<AudioSource>().Pause();
+        //    }
+        //}
     }
 
 
@@ -60,7 +66,14 @@ public class StagesGM : MonoBehaviour
     public void EndScene()
     {
         FadeToBlack();
-        SceneManager.LoadScene(0);
+        if (stageNumber == lastStage)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene("Stage" + (stageNumber + 1));
+        }
     }
 
     public void ChangeToStagesSelection()
