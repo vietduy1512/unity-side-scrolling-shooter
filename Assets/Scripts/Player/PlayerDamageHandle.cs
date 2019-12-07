@@ -3,13 +3,13 @@
 public class PlayerDamageHandle : MonoBehaviour
 {
     public GameObject Explosion;
-    public GameObject Health;           // Look in the DamageHandler 4 more info
+    public GameObject Health;
 
     public int health = 1;
     private float realHealth = 100;
 
-    private SpriteRenderer healthBar;           // Reference to the sprite renderer of the health bar.
-    private Vector3 healthScale;                // The local scale of the health bar initially (with full health).
+    private SpriteRenderer healthBar;
+    private Vector3 healthScale;
 
     public float invulnPeriod = 0;
     float invulnTimer = 0;
@@ -18,9 +18,6 @@ public class PlayerDamageHandle : MonoBehaviour
 
     void Start()
     {
-
-        // NOTE!  This only get the renderer on the parent object.
-        // In other words, it doesn't work for children. I.E. "enemy01"
         spriteRend = GetComponent<SpriteRenderer>();
 
         if (spriteRend == null)
@@ -33,9 +30,8 @@ public class PlayerDamageHandle : MonoBehaviour
             }
         }
 
-        // INIT
-        Health = (GameObject)Instantiate(Health, transform.position, Quaternion.identity);
-        healthBar = Health.GetComponent<SpriteRenderer>();
+        Health = (GameObject)Instantiate(Health, Health.transform.position, Quaternion.identity);
+        healthBar = Health.transform.GetChild(0).GetComponent<SpriteRenderer>();
         healthScale = healthBar.transform.localScale;
     }
 
@@ -54,8 +50,6 @@ public class PlayerDamageHandle : MonoBehaviour
 
     void Update()
     {
-        Health.transform.position = transform.position + new Vector3(-1.2f, 1f, 0);
-
         if (invulnTimer > 0)
         {
             invulnTimer -= Time.deltaTime;
@@ -91,21 +85,16 @@ public class PlayerDamageHandle : MonoBehaviour
         Destroy(Health);
     }
 
-    //set explosion
     void PlayExplosion()
     {
         GameObject explosion = (GameObject)Instantiate(Explosion);
 
-        //set the position of the explosion
         explosion.transform.position = transform.position;
     }
 
     public void UpdateHealthBar()
     {
-        // Set the health bar's colour to proportion of the way between green and red based on the player's health.
         healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - realHealth * 0.01f);
-
-        // Set the scale of the health bar to be proportional to the player's health.
-        healthBar.transform.localScale = new Vector3(healthScale.x * realHealth * 0.01f, 1, 1);
+        healthBar.transform.localScale = new Vector3(healthScale.x * realHealth * 0.01f, healthScale.y, healthScale.z);
     }
 }

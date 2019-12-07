@@ -575,7 +575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Explosion: {fileID: 114990, guid: b7e359b0b01c27f49b830c084e86a7c5, type: 3}
-  Health: {fileID: 158370, guid: 6c63f0589a13bb743bf4d77e58d043ac, type: 3}
+  Health: {fileID: 8152818921437703260, guid: 1d613d8917919df40b8f54c74ceb1d69, type: 3}
   health: 15
   invulnPeriod: 0.1
 --- !u!114 &11438122
