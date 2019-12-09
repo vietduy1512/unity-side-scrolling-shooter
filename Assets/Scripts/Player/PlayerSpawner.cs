@@ -17,6 +17,8 @@ public class PlayerSpawner : MonoBehaviour
 
     float respawnTimer;
 
+    bool isAlive = false;
+
     public void Start()
     {
         numLives = StagesGM.playerLives;
@@ -29,6 +31,7 @@ public class PlayerSpawner : MonoBehaviour
     {
         numLives--;
         respawnTimer = 1;
+        isAlive = true;
 
         LivesUIText.text = numLives.ToString();
 
@@ -50,6 +53,7 @@ public class PlayerSpawner : MonoBehaviour
         }
         else if (playerInstance == null && numLives == 0)
         {
+            isAlive = false;
             gameObject.SetActive(false);
             GameOver.SetActive(true);
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
@@ -64,5 +68,10 @@ public class PlayerSpawner : MonoBehaviour
 
             Destroy(GO[i]);
         }
+    }
+
+    public bool isPlayerAlive()
+    {
+        return this.isAlive;
     }
 }

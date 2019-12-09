@@ -92,6 +92,7 @@ public class DamageHandler : MonoBehaviour
 
     void Die()
     {
+        NotifyScore();
         Destroy(gameObject);
         Destroy(Health);
     }
@@ -113,5 +114,15 @@ public class DamageHandler : MonoBehaviour
     {
         if (gameObject.name == "PlayerBarrett01(Clone)" || gameObject.name == "PlayerBarrett02(Clone)")
             gameObject.GetComponent<PBarrettShooting>().MaxBarrett();
+    }
+
+    void NotifyScore()
+    {
+        GameObject gameManagerObj = GameObject.FindWithTag("Manager");
+        if (gameManagerObj != null)
+        {
+            var manager = gameManagerObj.GetComponent<ScorceManager>();
+            manager?.UpdateScore(this.health*10);
+        }
     }
 }
