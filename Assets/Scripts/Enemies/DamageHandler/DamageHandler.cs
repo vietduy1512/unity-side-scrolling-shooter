@@ -121,7 +121,7 @@ public class DamageHandler : MonoBehaviour
         GameObject gameManagerObj = GameObject.FindWithTag("Manager");
         if (gameManagerObj != null)
         {
-            var manager = gameManagerObj.GetComponent<ScorceManager>();
+            var manager = gameManagerObj.GetComponent<ScoreManager>();
             manager?.UpdateScore(this.health*10);
         }
     }
