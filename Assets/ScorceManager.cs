@@ -7,14 +7,15 @@ public class ScorceManager : MonoBehaviour
 {
     public Text scoreText;
     public int currentScore = 0;
-    public PlayerSpawner player;
-    // Start is called before the first frame update
-    void Start()
+
+    PlayerSpawner player;
+
+    private void Awake()
     {
         currentScore = 0;
+        player = GameObject.Find("PlayerSpawner").GetComponent<PlayerSpawner>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         scoreText.text = this.currentScore.ToString();
