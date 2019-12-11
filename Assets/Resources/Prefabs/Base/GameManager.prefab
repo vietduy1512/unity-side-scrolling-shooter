@@ -748,7 +748,7 @@ RectTransform:
   m_Children:
   - {fileID: 846160699}
   m_Father: {fileID: 1599219797}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1764,8 +1764,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3257791229518108742}
   - {fileID: 971501690}
+  - {fileID: 3257791229518108742}
   m_Father: {fileID: 1176600218}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2899,12 +2899,12 @@ RectTransform:
   m_Children:
   - {fileID: 3448396413545084750}
   m_Father: {fileID: 1599219797}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 154.32, y: 44.12}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -77.5, y: -57.5}
+  m_SizeDelta: {x: 155, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8792761399090873062
 CanvasRenderer:
@@ -2927,7 +2927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7058824}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3163,6 +3163,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 581543135}
     m_Modifications:
+    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_Name
+      value: Fire rate Item
+      objectReference: {fileID: 0}
     - target: {fileID: 4403142416065336042, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3267,11 +3272,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
-        type: 3}
-      propertyPath: m_Name
-      value: Fire rate Item
       objectReference: {fileID: 0}
     - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
@@ -3453,6 +3453,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 581543135}
     m_Modifications:
+    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_Name
+      value: Shield Item
+      objectReference: {fileID: 0}
     - target: {fileID: 4403142416065336042, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3558,11 +3563,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
-        type: 3}
-      propertyPath: m_Name
-      value: Shield Item
-      objectReference: {fileID: 0}
     - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3592,6 +3592,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 581543135}
     m_Modifications:
+    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_Name
+      value: Barrett Item
+      objectReference: {fileID: 0}
     - target: {fileID: 4403142416065336042, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3696,11 +3701,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
-        type: 3}
-      propertyPath: m_Name
-      value: Barrett Item
       objectReference: {fileID: 0}
     - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
@@ -3877,6 +3877,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1176600218}
     m_Modifications:
+    - target: {fileID: 7508224562258152751, guid: 85a17bca82643a540b03b6b0e91214dc,
+        type: 3}
+      propertyPath: m_Name
+      value: Loading Screen
+      objectReference: {fileID: 0}
     - target: {fileID: 7508224562258152750, guid: 85a17bca82643a540b03b6b0e91214dc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3982,11 +3987,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7508224562258152751, guid: 85a17bca82643a540b03b6b0e91214dc,
-        type: 3}
-      propertyPath: m_Name
-      value: Loading Screen
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85a17bca82643a540b03b6b0e91214dc, type: 3}
 --- !u!224 &2269731803591857730 stripped
@@ -4026,6 +4026,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 581543135}
     m_Modifications:
+    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_Name
+      value: Move speed Item
+      objectReference: {fileID: 0}
     - target: {fileID: 4403142416065336042, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4130,11 +4135,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
-        type: 3}
-      propertyPath: m_Name
-      value: Move speed Item
       objectReference: {fileID: 0}
     - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
@@ -4275,21 +4275,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1934138423}
-    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseUpgradeScreem
-      objectReference: {fileID: 0}
-    - target: {fileID: 5119767032570508348, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
-        type: 3}
-      propertyPath: m_Text
-      value: CLOSE
-      objectReference: {fileID: 0}
     - target: {fileID: 5119767033492300461, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
         type: 3}
       propertyPath: m_Color.r
@@ -4304,6 +4289,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.6415094
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1934138423}
+    - target: {fileID: 5119767033492300462, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseUpgradeScreem
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119767032570508348, guid: 3d8f247751bbcf54a909ae6bbeac1b92,
+        type: 3}
+      propertyPath: m_Text
+      value: CLOSE
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d8f247751bbcf54a909ae6bbeac1b92, type: 3}
@@ -4429,17 +4429,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1746786037}
+    - target: {fileID: 2915983421683863957, guid: 366352262a547d7468d2d7ec91b66527,
+        type: 3}
+      propertyPath: m_Text
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 2915983420493016252, guid: 366352262a547d7468d2d7ec91b66527,
         type: 3}
       propertyPath: m_Text
       value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2915983420661978259, guid: 366352262a547d7468d2d7ec91b66527,
-        type: 3}
-      propertyPath: m_Text
-      value: 80
-      objectReference: {fileID: 0}
-    - target: {fileID: 2915983421683863957, guid: 366352262a547d7468d2d7ec91b66527,
         type: 3}
       propertyPath: m_Text
       value: 80
@@ -4465,6 +4465,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 581543135}
     m_Modifications:
+    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_Name
+      value: Health Item
+      objectReference: {fileID: 0}
     - target: {fileID: 4403142416065336042, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4570,11 +4575,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
-        type: 3}
-      propertyPath: m_Name
-      value: Health Item
-      objectReference: {fileID: 0}
     - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4604,6 +4604,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 581543135}
     m_Modifications:
+    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_Name
+      value: Focus shot Item
+      objectReference: {fileID: 0}
     - target: {fileID: 4403142416065336042, guid: 2e4951e7224de3f438c827fc13e04622,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4708,11 +4713,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403142416065336043, guid: 2e4951e7224de3f438c827fc13e04622,
-        type: 3}
-      propertyPath: m_Name
-      value: Focus shot Item
       objectReference: {fileID: 0}
     - target: {fileID: 1555740109, guid: 2e4951e7224de3f438c827fc13e04622, type: 3}
       propertyPath: m_Text
