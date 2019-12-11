@@ -110,10 +110,11 @@ GameObject:
   - component: {fileID: 460964}
   - component: {fileID: 11463048}
   - component: {fileID: 11404074}
-  - component: {fileID: 11442398}
   - component: {fileID: 5020122}
   - component: {fileID: 6095274}
   - component: {fileID: 11480422}
+  - component: {fileID: 6852099384717370382}
+  - component: {fileID: 2762281207006025961}
   m_Layer: 9
   m_Name: Boss04
   m_TagString: Enemy
@@ -167,20 +168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
---- !u!114 &11442398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0118df4e9d35617458cf1a74ec300671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  xStop: -17
 --- !u!50 &5020122
 Rigidbody2D:
   serializedVersion: 4
@@ -253,3 +240,33 @@ MonoBehaviour:
   requirePosition: 50
   fireDelay: 0.5
   angle: 0
+--- !u!114 &6852099384717370382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a621d22f3cb0344ad6959feab9618b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  xStop: 15
+--- !u!114 &2762281207006025961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7e22f7da9965f46ab585d546a0059d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveUp: 0
+  isScaleFollowGO: 1
+  maxSpeed: 5
+  yRange: 6
