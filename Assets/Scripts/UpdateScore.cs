@@ -6,10 +6,9 @@ using UnityEngine.UI;
 public class UpdateScore : MonoBehaviour
 {
     public Text scoretext;
-    public ScoreManager manager;
 
     private void OnEnable()
     {
-        scoretext.text = string.Format("Score: {0}", manager.currentScore);
+        scoretext.text = string.Format("Score: {0}", ScoreManager.currentScore);
     }
 }

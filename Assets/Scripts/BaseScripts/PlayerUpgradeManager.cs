@@ -33,11 +33,14 @@ public class PlayerUpgradeManager : MonoBehaviour
 
     private void Awake()
     {
-        fireRate = initFireRate + fireRateUpgradeOffset * fireRateCount;
-        moveSpeed = initMoveSpeed + moveSpeedUpgradeOffset * moveSpeedCount;
-        health = initHealth + healthUpgradeOffset * healthCount;
-        maxBarretts = initMaxBarretts + maxBarrettsOffset * maxBarrettsCount;
-        maxShields = initMaxShields + maxBarrettsOffset * maxBarrettsCount;
+        if (!StagesGM.isStartGame)
+        {
+            fireRate = initFireRate + fireRateUpgradeOffset * fireRateCount;
+            moveSpeed = initMoveSpeed + moveSpeedUpgradeOffset * moveSpeedCount;
+            health = initHealth + healthUpgradeOffset * healthCount;
+            maxBarretts = initMaxBarretts + maxBarrettsOffset * maxBarrettsCount;
+            maxShields = initMaxShields + maxBarrettsOffset * maxBarrettsCount;
+        }
         InitUpgradeUI();
     }
 

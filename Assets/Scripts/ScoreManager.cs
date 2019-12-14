@@ -5,20 +5,25 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    public Text scoreText;
-    public int currentScore = 0;
+    [SerializeField] int initScore = 0;
+    [SerializeField] Text scoreText;
+
+    public static int currentScore;
 
     PlayerSpawner player;
 
     private void Awake()
     {
-        currentScore = 0;
+        if (!StagesGM.isStartGame)
+        {
+            currentScore = initScore;
+        }
         player = GameObject.Find("PlayerSpawner").GetComponent<PlayerSpawner>();
     }
 
     void Update()
     {
-        scoreText.text = this.currentScore.ToString();
+        scoreText.text = currentScore.ToString();
     }
 
 
@@ -26,7 +31,7 @@ public class ScoreManager : MonoBehaviour
     {
         if (player.isPlayerAlive())
         {
-            this.currentScore += value;
+            currentScore += value;
         }
     }
 }

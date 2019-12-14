@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class StagesGM : MonoBehaviour
 {
+    public static bool isStartGame = false;
+
     public static int lastStage = 2;
 
     public static int playerLives = 2;
@@ -30,6 +32,11 @@ public class StagesGM : MonoBehaviour
         layer = curtainLayer.GetComponent<Image>();
         curtainLayer.SetActive(true);
         audio = GetComponent<AudioSource>();
+    }
+
+    private void Start()
+    {
+        isStartGame = true;
     }
 
     void Update()
