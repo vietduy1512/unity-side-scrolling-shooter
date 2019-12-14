@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 11412254}
   - component: {fileID: 11434922}
   - component: {fileID: 11433174}
-  m_Layer: 12
+  m_Layer: 11
   m_Name: Bullet06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 429114}
   - component: {fileID: 21284890}
   - component: {fileID: 9553850}
-  m_Layer: 12
+  m_Layer: 11
   m_Name: GRAPHIC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
