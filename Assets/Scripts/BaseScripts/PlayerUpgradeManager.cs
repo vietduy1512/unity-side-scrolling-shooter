@@ -51,6 +51,13 @@ public class PlayerUpgradeManager : MonoBehaviour
     public static int maxBarretts;
     public static int maxShields;
     public static int focusShooting;
+    
+    public static int FireRateLimit = 10;
+    public static int MoveSpeedLimit = 10;
+    public static int HealthLimit = 20;
+    public static int MaxBarrettsLimit = 3;
+    public static int MaxShieldsLimit = 3;
+    public static int FocusShootingLimit = 2;
 
     private void Awake()
     {
@@ -67,85 +74,104 @@ public class PlayerUpgradeManager : MonoBehaviour
 
     public void upgradeFireRate()
     {
-        if (Point.upgradePoint - GetFireRatePoint() < 0)
+        if (Point.upgradePoint - GetFireRatePoint() < 0 || fireRateCount >= FireRateLimit)
         {
             return;
         }
         point.DecreaseUpgradePoint(GetFireRatePoint());
         fireRate += fireRateUpgradeOffset;
         fireRateCount++;
-        ChangeLevelText("FireRateLevelCount", fireRateCount);
-        fireRateUpgradePointLabel.GetComponent<Text>().text = GetFireRatePoint().ToString();
+        ChangeLevelText("FireRateLevelCount", fireRateCount, FireRateLimit);
+        ChangeUpgradeButtonText(fireRateUpgradePointLabel, GetFireRatePoint(), fireRateCount, FireRateLimit);
     }
 
     public void upgradeMoveSpeed()
     {
-        if (Point.upgradePoint - GetMoveSpeedPoint() < 0)
+        if (Point.upgradePoint - GetMoveSpeedPoint() < 0 || moveSpeedCount >= MoveSpeedLimit)
         {
             return;
         }
         point.DecreaseUpgradePoint(GetMoveSpeedPoint());
         moveSpeed += moveSpeedUpgradeOffset;
         moveSpeedCount++;
-        ChangeLevelText("MoveSpeedLevelCount", moveSpeedCount);
-        moveSpeedUpgradePointLabel.GetComponent<Text>().text = GetMoveSpeedPoint().ToString();
+        ChangeLevelText("MoveSpeedLevelCount", moveSpeedCount, MoveSpeedLimit);
+        ChangeUpgradeButtonText(moveSpeedUpgradePointLabel, GetMoveSpeedPoint(), moveSpeedCount, MoveSpeedLimit);
     }
 
     public void upgradeHealth()
     {
-        if (Point.upgradePoint - GetHealthPoint() < 0)
+        if (Point.upgradePoint - GetHealthPoint() < 0 || healthCount >= HealthLimit)
         {
             return;
         }
         point.DecreaseUpgradePoint(GetHealthPoint());
         health += healthUpgradeOffset;
         healthCount++;
-        ChangeLevelText("HealthLevelCount", healthCount);
-        healthUpgradePointLabel.GetComponent<Text>().text = GetHealthPoint().ToString();
+        ChangeLevelText("HealthLevelCount", healthCount, HealthLimit);
+        ChangeUpgradeButtonText(healthUpgradePointLabel, GetHealthPoint(), healthCount, HealthLimit);
     }
 
     public void upgradeBarrett()
     {
-        if (Point.upgradePoint - GetBarrettPoint() < 0)
+        if (Point.upgradePoint - GetBarrettPoint() < 0 || maxBarrettsCount >= MaxBarrettsLimit)
         {
             return;
         }
         point.DecreaseUpgradePoint(GetBarrettPoint());
         maxBarretts += maxBarrettsOffset;
         maxBarrettsCount++;
-        ChangeLevelText("BarrettLevelCount", maxBarrettsCount);
-        maxBarrettsUpgradePointLabel.GetComponent<Text>().text = GetBarrettPoint().ToString();
+        ChangeLevelText("BarrettLevelCount", maxBarrettsCount, MaxBarrettsLimit);
+        ChangeUpgradeButtonText(maxBarrettsUpgradePointLabel, GetBarrettPoint(), maxBarrettsCount, MaxBarrettsLimit);
     }
 
     public void upgradeMaxShields()
     {
-        if (Point.upgradePoint - GetMaxShieldsPoint() < 0)
+        if (Point.upgradePoint - GetMaxShieldsPoint() < 0 || maxShieldsCount >= MaxShieldsLimit)
         {
             return;
         }
         point.DecreaseUpgradePoint(GetMaxShieldsPoint());
         maxShields += maxShieldsOffset;
         maxShieldsCount++;
-        ChangeLevelText("ShieldLevelCount", maxShieldsCount);
-        maxShieldsUpgradePointLabel.GetComponent<Text>().text = GetMaxShieldsPoint().ToString();
+        ChangeLevelText("ShieldLevelCount", maxShieldsCount, MaxShieldsLimit);
+        ChangeUpgradeButtonText(maxShieldsUpgradePointLabel, GetMaxShieldsPoint(), maxShieldsCount, MaxShieldsLimit);
     }
 
     public void upgradeFocusShooting()
     {
-        if (Point.upgradePoint - GetFocusShootingPoint() < 0)
+        if (Point.upgradePoint - GetFocusShootingPoint() < 0 || focusShootingCount >= FocusShootingLimit)
         {
             return;
         }
         point.DecreaseUpgradePoint(GetFocusShootingPoint());
         focusShooting += focusShootingOffset;
         focusShootingCount++;
-        ChangeLevelText("FocusShotLevelCount", focusShootingCount);
-        focusShootingUpgradePointLabel.GetComponent<Text>().text = GetFocusShootingPoint().ToString();
+        ChangeLevelText("FocusShotLevelCount", focusShootingCount, FocusShootingLimit);
+        ChangeUpgradeButtonText(focusShootingUpgradePointLabel, GetFocusShootingPoint(), focusShootingCount, FocusShootingLimit);
     }
 
-    private void ChangeLevelText(string name, int count)
+    private void ChangeLevelText(string name, int count, int limit)
     {
-        GameObject.Find(name).GetComponent<Text>().text = "Level: " + count;
+        if (count >= limit)
+        {
+            GameObject.Find(name).GetComponent<Text>().text = "Level: MAX";
+        }
+        else
+        {
+            GameObject.Find(name).GetComponent<Text>().text = "Level: " + count;
+        }
+    }
+
+    private void ChangeUpgradeButtonText(GameObject label, int value, int count, int limit)
+    {
+        if (count >= limit)
+        {
+            label.GetComponent<Text>().text = "X";
+        }
+        else
+        {
+            label.GetComponent<Text>().text = value.ToString();
+        }
     }
 
     public int GetFireRatePoint() => fireRateUpgradePoint * (int)Mathf.Pow(2, fireRateCount);
@@ -159,12 +185,12 @@ public class PlayerUpgradeManager : MonoBehaviour
     {
         upgradeScreen.SetActive(true);
 
-        ChangeLevelText("FireRateLevelCount", fireRateCount);
-        ChangeLevelText("MoveSpeedLevelCount", moveSpeedCount);
-        ChangeLevelText("HealthLevelCount", healthCount);
-        ChangeLevelText("BarrettLevelCount", maxBarrettsCount);
-        ChangeLevelText("ShieldLevelCount", maxShieldsCount);
-        ChangeLevelText("FocusShotLevelCount", focusShootingCount);
+        ChangeLevelText("FireRateLevelCount", fireRateCount, FireRateLimit);
+        ChangeLevelText("MoveSpeedLevelCount", moveSpeedCount, MoveSpeedLimit);
+        ChangeLevelText("HealthLevelCount", healthCount, HealthLimit);
+        ChangeLevelText("BarrettLevelCount", maxBarrettsCount, MaxBarrettsLimit);
+        ChangeLevelText("ShieldLevelCount", maxShieldsCount, MaxShieldsLimit);
+        ChangeLevelText("FocusShotLevelCount", focusShootingCount, FocusShootingLimit);
 
         fireRateUpgradePointLabel.GetComponent<Text>().text = GetFireRatePoint().ToString();
         moveSpeedUpgradePointLabel.GetComponent<Text>().text = GetMoveSpeedPoint().ToString();
