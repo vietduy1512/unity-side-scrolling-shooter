@@ -160,7 +160,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoretext: {fileID: 3038758067699714384}
-  manager: {fileID: 7561867066486057309}
 --- !u!1 &422514390
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +314,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoretext: {fileID: 6348921934533211145}
-  manager: {fileID: 7561867066486057309}
 --- !u!1 &786714391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,8 +2376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d53ad96b1789e8548829c5bc05a9262b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initScore: 0
   scoreText: {fileID: 1351589201393218982}
-  currentScore: 0
 --- !u!1001 &8338241555412542045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2460,32 +2458,32 @@ PrefabInstance:
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}

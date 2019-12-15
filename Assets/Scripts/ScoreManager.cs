@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     public static int currentScore;
 
     PlayerSpawner player;
+    Point point;
 
     private void Awake()
     {
@@ -19,6 +20,7 @@ public class ScoreManager : MonoBehaviour
             currentScore = initScore;
         }
         player = GameObject.Find("PlayerSpawner").GetComponent<PlayerSpawner>();
+        point = gameObject.GetComponentInChildren<Point>();
     }
 
     void Update()
@@ -26,11 +28,11 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = currentScore.ToString();
     }
 
-
     public void UpdateScore(int value)
     {
         if (player.isPlayerAlive())
         {
+            point.IncreaseUpgradePoint(value);
             currentScore += value;
         }
     }
