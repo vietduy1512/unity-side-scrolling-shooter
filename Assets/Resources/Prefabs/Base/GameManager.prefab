@@ -2360,21 +2360,25 @@ MonoBehaviour:
   initHealth: 5
   initMaxBarretts: 0
   initMaxShields: 0
+  initFocusShooting: 0
   fireRateUpgradeOffset: -0.05
   moveSpeedUpgradeOffset: 1
   healthUpgradeOffset: 5
   maxBarrettsOffset: 1
   maxShieldsOffset: 1
+  focusShootingOffset: 1
   fireRateUpgradePoint: 5
   moveSpeedUpgradePoint: 5
   healthUpgradePoint: 2
   maxBarrettsUpgradePoint: 10
   maxShieldsUpgradePoint: 10
+  focusShootingUpgradePoint: 10
   fireRateUpgradePointLabel: {fileID: 3476839955738803308}
   moveSpeedUpgradePointLabel: {fileID: 962412655566851482}
   healthUpgradePointLabel: {fileID: 962412656149077598}
   maxBarrettsUpgradePointLabel: {fileID: 962412656638457245}
   maxShieldsUpgradePointLabel: {fileID: 962412656802281603}
+  focusShootingUpgradePointLabel: {fileID: 962412656058355066}
 --- !u!114 &7561867066486057309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2522,6 +2526,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 8017498210270292850}
+    - target: {fileID: 9145772569935198647, guid: 14eb6965ed9cd07449c83ea72908ffa6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8017498210270292850}
     - target: {fileID: 9145772570041543315, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2597,6 +2606,12 @@ GameObject:
 --- !u!1 &962412656802281603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9145772569503849182, guid: 14eb6965ed9cd07449c83ea72908ffa6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8338241555412542045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &962412656058355066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9145772570856992551, guid: 14eb6965ed9cd07449c83ea72908ffa6,
     type: 3}
   m_PrefabInstance: {fileID: 8338241555412542045}
   m_PrefabAsset: {fileID: 0}
@@ -2865,12 +2880,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85a17bca82643a540b03b6b0e91214dc, type: 3}
---- !u!1 &2269731803591857731 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7508224562258152751, guid: 85a17bca82643a540b03b6b0e91214dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 8596570665559874412}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2269731803591857730 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7508224562258152750, guid: 85a17bca82643a540b03b6b0e91214dc,
@@ -2892,6 +2901,12 @@ MonoBehaviour:
 --- !u!1 &2269731803312174527 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7508224563896479443, guid: 85a17bca82643a540b03b6b0e91214dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8596570665559874412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2269731803591857731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7508224562258152751, guid: 85a17bca82643a540b03b6b0e91214dc,
     type: 3}
   m_PrefabInstance: {fileID: 8596570665559874412}
   m_PrefabAsset: {fileID: 0}

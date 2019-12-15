@@ -39,7 +39,8 @@ public class PlayerShooting : MonoBehaviour
 
         cooldownTimer -= Time.deltaTime;
 
-        if (Input.GetButton("Slow") && Input.GetButton("PlayerFire") && cooldownTimer <= 0)
+        if (PlayerUpgradeManager.focusShooting > 0 &&
+            Input.GetButton("Slow") && Input.GetButton("PlayerFire") && cooldownTimer <= 0)
         {
             GetComponent<AudioSource>().Play();
 
@@ -47,7 +48,7 @@ public class PlayerShooting : MonoBehaviour
 
             Vector3 offset = transform.rotation * bulletOffset;
 
-            // Creat Bullets
+            // Create Bullets
             Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
             // 2nd
             offset = transform.rotation * new Vector3(-0.3f, 0, 0);
@@ -55,12 +56,16 @@ public class PlayerShooting : MonoBehaviour
             // 3rd
             offset = transform.rotation * new Vector3(0.3f, 0, 0);
             Instantiate(bulletPrefab2, transform.position + offset, transform.rotation);
-            // 2nd
-            offset = transform.rotation * new Vector3(-0.6f, 0, 0);
-            Instantiate(bulletPrefab2, transform.position + offset, transform.rotation);
-            // 3rd
-            offset = transform.rotation * new Vector3(0.6f, 0, 0);
-            Instantiate(bulletPrefab2, transform.position + offset, transform.rotation);
+
+            if (PlayerUpgradeManager.focusShooting > 1)
+            {
+                // 2nd
+                offset = transform.rotation * new Vector3(-0.6f, 0, 0);
+                Instantiate(bulletPrefab2, transform.position + offset, transform.rotation);
+                // 3rd
+                offset = transform.rotation * new Vector3(0.6f, 0, 0);
+                Instantiate(bulletPrefab2, transform.position + offset, transform.rotation);
+            }
         }
         else if (Input.GetButton("PlayerFire") && cooldownTimer <= 0)
         {

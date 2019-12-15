@@ -14,18 +14,21 @@ public class PlayerUpgradeManager : MonoBehaviour
     [SerializeField] float initHealth = 5;
     [SerializeField] int initMaxBarretts = 0;
     [SerializeField] int initMaxShields = 0;
+    [SerializeField] int initFocusShooting = 0;
 
     [SerializeField] float fireRateUpgradeOffset = -0.05f;
     [SerializeField] float moveSpeedUpgradeOffset = 1f;
     [SerializeField] float healthUpgradeOffset = 5;
     [SerializeField] int maxBarrettsOffset = 1;
     [SerializeField] int maxShieldsOffset = 1;
+    [SerializeField] int focusShootingOffset = 1;
 
     [SerializeField] int fireRateUpgradePoint = 5;
     [SerializeField] int moveSpeedUpgradePoint = 5;
     [SerializeField] int healthUpgradePoint = 2;
     [SerializeField] int maxBarrettsUpgradePoint = 10;
     [SerializeField] int maxShieldsUpgradePoint = 10;
+    [SerializeField] int focusShootingUpgradePoint = 10;
 
     [Header("Upgrade UI")]
     [SerializeField] GameObject fireRateUpgradePointLabel;
@@ -33,18 +36,21 @@ public class PlayerUpgradeManager : MonoBehaviour
     [SerializeField] GameObject healthUpgradePointLabel;
     [SerializeField] GameObject maxBarrettsUpgradePointLabel;
     [SerializeField] GameObject maxShieldsUpgradePointLabel;
+    [SerializeField] GameObject focusShootingUpgradePointLabel;
 
     public static int fireRateCount = 0;
     public static int moveSpeedCount = 0;
     public static int healthCount = 0;
     public static int maxBarrettsCount = 0;
     public static int maxShieldsCount = 0;
+    public static int focusShootingCount = 0;
 
     public static float fireRate;
     public static float moveSpeed;
     public static float health;
     public static int maxBarretts;
     public static int maxShields;
+    public static int focusShooting;
 
     private void Awake()
     {
@@ -57,10 +63,6 @@ public class PlayerUpgradeManager : MonoBehaviour
             maxShields = initMaxShields + maxBarrettsOffset * maxBarrettsCount;
         }
         InitUpgradeUI();
-    }
-
-    private void Start()
-    {
     }
 
     public void upgradeFireRate()
@@ -128,6 +130,19 @@ public class PlayerUpgradeManager : MonoBehaviour
         maxShieldsUpgradePointLabel.GetComponent<Text>().text = GetMaxShieldsPoint().ToString();
     }
 
+    public void upgradeFocusShooting()
+    {
+        if (Point.upgradePoint - GetFocusShootingPoint() < 0)
+        {
+            return;
+        }
+        point.DecreaseUpgradePoint(GetFocusShootingPoint());
+        focusShooting += focusShootingOffset;
+        focusShootingCount++;
+        ChangeLevelText("FocusShotLevelCount", focusShootingCount);
+        focusShootingUpgradePointLabel.GetComponent<Text>().text = GetFocusShootingPoint().ToString();
+    }
+
     private void ChangeLevelText(string name, int count)
     {
         GameObject.Find(name).GetComponent<Text>().text = "Level: " + count;
@@ -138,6 +153,7 @@ public class PlayerUpgradeManager : MonoBehaviour
     public int GetHealthPoint() => healthUpgradePoint * (int)Mathf.Pow(2, healthCount);
     public int GetBarrettPoint() => maxBarrettsUpgradePoint * (int)Mathf.Pow(2, maxBarrettsCount);
     public int GetMaxShieldsPoint() => maxShieldsUpgradePoint * (int)Mathf.Pow(2, maxShieldsCount);
+    public int GetFocusShootingPoint() => focusShootingUpgradePoint * (int)Mathf.Pow(2, focusShootingCount);
 
     void InitUpgradeUI()
     {
@@ -148,12 +164,14 @@ public class PlayerUpgradeManager : MonoBehaviour
         ChangeLevelText("HealthLevelCount", healthCount);
         ChangeLevelText("BarrettLevelCount", maxBarrettsCount);
         ChangeLevelText("ShieldLevelCount", maxShieldsCount);
+        ChangeLevelText("FocusShotLevelCount", focusShootingCount);
 
         fireRateUpgradePointLabel.GetComponent<Text>().text = GetFireRatePoint().ToString();
         moveSpeedUpgradePointLabel.GetComponent<Text>().text = GetMoveSpeedPoint().ToString();
         healthUpgradePointLabel.GetComponent<Text>().text = GetHealthPoint().ToString();
         maxBarrettsUpgradePointLabel.GetComponent<Text>().text = GetBarrettPoint().ToString();
         maxShieldsUpgradePointLabel.GetComponent<Text>().text = GetMaxShieldsPoint().ToString();
+        focusShootingUpgradePointLabel.GetComponent<Text>().text = GetFocusShootingPoint().ToString();
 
         upgradeScreen.SetActive(false);
     }

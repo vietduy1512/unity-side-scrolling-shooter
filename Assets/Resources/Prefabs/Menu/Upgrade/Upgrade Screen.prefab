@@ -1617,6 +1617,16 @@ PrefabInstance:
       propertyPath: m_Text
       value: Add new focus shooting
       objectReference: {fileID: 0}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797230256807017117, guid: 2e4951e7224de3f438c827fc13e04622,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: upgradeFocusShooting
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e4951e7224de3f438c827fc13e04622, type: 3}
 --- !u!224 &4170719526825284032 stripped
