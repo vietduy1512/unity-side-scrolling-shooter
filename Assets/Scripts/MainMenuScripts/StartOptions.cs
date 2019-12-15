@@ -62,7 +62,7 @@ public class StartOptions : MonoBehaviour
     {
         inMainMenu = false;
 
-        showPanels.HideMenu();
+        showPanels?.HideMenu();
 
         SceneManager.LoadScene(sceneToStart);
 
@@ -71,7 +71,7 @@ public class StartOptions : MonoBehaviour
 
     public void HideDelayed()
     {
-        showPanels.HideMenu();
+        showPanels?.HideMenu();
     }
 
     public void StartStages(int level)

@@ -30,6 +30,11 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        if (optionsScreen.activeSelf)
+        {
+            return;
+        }
+
         isPaused = !isPaused;
         pauseScreen.SetActive(isPaused);
         if (isPaused)
