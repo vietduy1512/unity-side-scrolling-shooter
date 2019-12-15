@@ -7,11 +7,11 @@ public class ScoreManager : MonoBehaviour
 {
     [SerializeField] int initScore = 0;
     [SerializeField] Text scoreText;
+    [SerializeField] Point point;
 
     public static int currentScore;
 
     PlayerSpawner player;
-    Point point;
 
     private void Awake()
     {
@@ -20,7 +20,6 @@ public class ScoreManager : MonoBehaviour
             currentScore = initScore;
         }
         player = GameObject.Find("PlayerSpawner").GetComponent<PlayerSpawner>();
-        point = gameObject.GetComponentInChildren<Point>();
     }
 
     void Update()

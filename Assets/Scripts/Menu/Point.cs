@@ -5,11 +5,17 @@ using UnityEngine.UI;
 
 public class Point : MonoBehaviour
 {
-    static int upgradePoint = 0;
+    public static int upgradePoint = 0;
 
     public void IncreaseUpgradePoint(int value)
     {
         upgradePoint += value;
+        this.gameObject.GetComponent<Text>().text = upgradePoint.ToString();
+    }
+
+    public void DecreaseUpgradePoint(int value)
+    {
+        upgradePoint -= value;
         this.gameObject.GetComponent<Text>().text = upgradePoint.ToString();
     }
 }

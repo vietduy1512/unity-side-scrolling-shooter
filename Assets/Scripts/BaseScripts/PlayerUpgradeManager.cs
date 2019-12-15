@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerUpgradeManager : MonoBehaviour
 {
     [SerializeField] GameObject upgradeScreen;
+    [SerializeField] Point point;
 
     [Header("Upgrade Initilize")]
     [SerializeField] float initFireRate = 0.3f;
@@ -64,42 +65,67 @@ public class PlayerUpgradeManager : MonoBehaviour
 
     public void upgradeFireRate()
     {
+        if (Point.upgradePoint - GetFireRatePoint() < 0)
+        {
+            return;
+        }
+        point.DecreaseUpgradePoint(GetFireRatePoint());
+        fireRate += fireRateUpgradeOffset;
         fireRateCount++;
         ChangeLevelText("FireRateLevelCount", fireRateCount);
         fireRateUpgradePointLabel.GetComponent<Text>().text = GetFireRatePoint().ToString();
-        fireRate += fireRateUpgradeOffset;
     }
 
     public void upgradeMoveSpeed()
     {
+        if (Point.upgradePoint - GetMoveSpeedPoint() < 0)
+        {
+            return;
+        }
+        point.DecreaseUpgradePoint(GetMoveSpeedPoint());
+        moveSpeed += moveSpeedUpgradeOffset;
         moveSpeedCount++;
         ChangeLevelText("MoveSpeedLevelCount", moveSpeedCount);
         moveSpeedUpgradePointLabel.GetComponent<Text>().text = GetMoveSpeedPoint().ToString();
-        moveSpeed += moveSpeedUpgradeOffset;
     }
 
     public void upgradeHealth()
     {
+        if (Point.upgradePoint - GetHealthPoint() < 0)
+        {
+            return;
+        }
+        point.DecreaseUpgradePoint(GetHealthPoint());
+        health += healthUpgradeOffset;
         healthCount++;
         ChangeLevelText("HealthLevelCount", healthCount);
         healthUpgradePointLabel.GetComponent<Text>().text = GetHealthPoint().ToString();
-        health += healthUpgradeOffset;
     }
 
     public void upgradeBarrett()
     {
+        if (Point.upgradePoint - GetBarrettPoint() < 0)
+        {
+            return;
+        }
+        point.DecreaseUpgradePoint(GetBarrettPoint());
+        maxBarretts += maxBarrettsOffset;
         maxBarrettsCount++;
         ChangeLevelText("BarrettLevelCount", maxBarrettsCount);
         maxBarrettsUpgradePointLabel.GetComponent<Text>().text = GetBarrettPoint().ToString();
-        maxBarretts += maxBarrettsOffset;
     }
 
     public void upgradeMaxShields()
     {
+        if (Point.upgradePoint - GetMaxShieldsPoint() < 0)
+        {
+            return;
+        }
+        point.DecreaseUpgradePoint(GetMaxShieldsPoint());
+        maxShields += maxShieldsOffset;
         maxShieldsCount++;
         ChangeLevelText("ShieldLevelCount", maxShieldsCount);
         maxShieldsUpgradePointLabel.GetComponent<Text>().text = GetMaxShieldsPoint().ToString();
-        maxShields += maxShieldsOffset;
     }
 
     private void ChangeLevelText(string name, int count)
@@ -107,11 +133,11 @@ public class PlayerUpgradeManager : MonoBehaviour
         GameObject.Find(name).GetComponent<Text>().text = "Level: " + count;
     }
 
-    public int GetFireRatePoint() => fireRateUpgradePoint * (fireRateCount + 1);
-    public int GetMoveSpeedPoint() => moveSpeedUpgradePoint * (moveSpeedCount + 1);
-    public int GetHealthPoint() => healthUpgradePoint * (healthCount + 1);
-    public int GetBarrettPoint() => maxBarrettsUpgradePoint * (maxBarrettsCount + 1);
-    public int GetMaxShieldsPoint() => maxShieldsUpgradePoint * (maxShieldsCount + 1);
+    public int GetFireRatePoint() => fireRateUpgradePoint * (int)Mathf.Pow(2, fireRateCount);
+    public int GetMoveSpeedPoint() => moveSpeedUpgradePoint * (int)Mathf.Pow(2, moveSpeedCount);
+    public int GetHealthPoint() => healthUpgradePoint * (int)Mathf.Pow(2, healthCount);
+    public int GetBarrettPoint() => maxBarrettsUpgradePoint * (int)Mathf.Pow(2, maxBarrettsCount);
+    public int GetMaxShieldsPoint() => maxShieldsUpgradePoint * (int)Mathf.Pow(2, maxShieldsCount);
 
     void InitUpgradeUI()
     {

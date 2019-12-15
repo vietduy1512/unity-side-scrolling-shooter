@@ -187,21 +187,9 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8596570666421383220}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &498838772 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 962412655566851482, guid: d400daed9fdd0d04b81e981f45da9e34,
-    type: 3}
-  m_PrefabInstance: {fileID: 8596570666421383220}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &632201254 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 632201254, guid: d400daed9fdd0d04b81e981f45da9e34,
-    type: 3}
-  m_PrefabInstance: {fileID: 8596570666421383220}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &748491602 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 962412656802281603, guid: d400daed9fdd0d04b81e981f45da9e34,
     type: 3}
   m_PrefabInstance: {fileID: 8596570666421383220}
   m_PrefabAsset: {fileID: 0}
@@ -217,24 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &929839608 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 962412656638457245, guid: d400daed9fdd0d04b81e981f45da9e34,
-    type: 3}
-  m_PrefabInstance: {fileID: 8596570666421383220}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1808872182 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 962412656149077598, guid: d400daed9fdd0d04b81e981f45da9e34,
-    type: 3}
-  m_PrefabInstance: {fileID: 8596570666421383220}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1960897318 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3476839955738803308, guid: d400daed9fdd0d04b81e981f45da9e34,
-    type: 3}
-  m_PrefabInstance: {fileID: 8596570666421383220}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1828590196921173976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -534,97 +504,82 @@ PrefabInstance:
     - target: {fileID: 8338241555977094786, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -391.49997
+      value: -391.50003
       objectReference: {fileID: 0}
     - target: {fileID: 8338241555977094786, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 121.80002
+      value: 121.79999
       objectReference: {fileID: 0}
     - target: {fileID: 8338241555827987864, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8338241555827987864, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8338241555827987864, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 8338241555827987864, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 8338241554429178546, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8338241554429178546, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 8338241554867598602, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8338241554867598602, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 8338241556300331981, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.49090877
       objectReference: {fileID: 0}
     - target: {fileID: 8338241556300331981, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8338241556300331981, guid: d400daed9fdd0d04b81e981f45da9e34,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.000000038266577
       objectReference: {fileID: 0}
     - target: {fileID: 8338241554303682336, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8338241554303682336, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0.99999934
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596570664530242561, guid: d400daed9fdd0d04b81e981f45da9e34,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8017498210270292850, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: fireRateUpgradePointLabel
-      value: 
-      objectReference: {fileID: 1960897318}
-    - target: {fileID: 8017498210270292850, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: moveSpeedUpgradePointLabel
-      value: 
-      objectReference: {fileID: 498838772}
-    - target: {fileID: 8017498210270292850, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: healthUpgradePointLabel
-      value: 
-      objectReference: {fileID: 1808872182}
-    - target: {fileID: 8017498210270292850, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: maxBarrettsUpgradePointLabel
-      value: 
-      objectReference: {fileID: 929839608}
-    - target: {fileID: 8017498210270292850, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: maxShieldsUpgradePointLabel
-      value: 
-      objectReference: {fileID: 748491602}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d400daed9fdd0d04b81e981f45da9e34, type: 3}
