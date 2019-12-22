@@ -107,20 +107,20 @@ public class OptionsMenu : MonoBehaviour
 
     private void setupVolume()
     {
-        if (PlayerPrefs.HasKey("MasterVol")) {
-            setLocalMasterVolume(PlayerPrefs.GetFloat("MasterVol"));
+        if (PlayerPrefs.HasKey("masterVol")) {
+            setLocalMasterVolume(PlayerPrefs.GetFloat("masterVol"));
         } else {
             setMasterVolume();
         }
 
-        if (PlayerPrefs.HasKey("MusicVol")) {
-            setLocalMusicVolume(PlayerPrefs.GetFloat("MusicVol"));
+        if (PlayerPrefs.HasKey("musicVol")) {
+            setLocalMusicVolume(PlayerPrefs.GetFloat("musicVol"));
         } else {
             setMusicVolume();
         }
 
-        if (PlayerPrefs.HasKey("SFXVol")) {
-            setLocalSFXVolume(PlayerPrefs.GetFloat("SFXVol"));
+        if (PlayerPrefs.HasKey("sfxVol")) {
+            setLocalSFXVolume(PlayerPrefs.GetFloat("sfxVol"));
         } else {
             setSFXVolume();
         }
@@ -130,29 +130,29 @@ public class OptionsMenu : MonoBehaviour
     {
         masterLabel.text = (value + 80).ToString();
         masterSlider.value = value;
-        mixer.SetFloat("MasterVol", ToVolume(value));
-        PlayerPrefs.SetFloat("MasterVol", value);
+        mixer.SetFloat("masterVol", ToVolume(value));
+        PlayerPrefs.SetFloat("masterVol", value);
     }
 
     private void setLocalMusicVolume(float value)
     {
         musicLabel.text = (value + 80).ToString();
         musicSlider.value = value;
-        mixer.SetFloat("MusicVol", ToVolume(value));
-        PlayerPrefs.SetFloat("MusicVol", value);
+        mixer.SetFloat("musicVol", ToVolume(value));
+        PlayerPrefs.SetFloat("musicVol", value);
     }
 
     private void setLocalSFXVolume(float value)
     {
         sfxLabel.text = (value + 80).ToString();
         sfxSlider.value = value;
-        mixer.SetFloat("SFXVol", ToVolume(value));
-        PlayerPrefs.SetFloat("SFXVol", value);
+        mixer.SetFloat("sfxVol", ToVolume(value));
+        PlayerPrefs.SetFloat("sfxVol", value);
     }
 
     private float ToVolume(float value)
     {
-        return (value - 40) / 2;
+        return (value - 20) / 2;
     }
 }
 
