@@ -2406,6 +2406,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Upgrade Screen
       objectReference: {fileID: 0}
+    - target: {fileID: 358676074334096988, guid: 14eb6965ed9cd07449c83ea72908ffa6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 358676074334096991, guid: 14eb6965ed9cd07449c83ea72908ffa6,
         type: 3}
       propertyPath: m_LocalPosition.x

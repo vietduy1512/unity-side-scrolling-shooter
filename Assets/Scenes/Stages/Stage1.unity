@@ -714,11 +714,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0.9999998
       objectReference: {fileID: 0}
-    - target: {fileID: 8596570664530242561, guid: d400daed9fdd0d04b81e981f45da9e34,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8596570665705999527, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: stageNumber
