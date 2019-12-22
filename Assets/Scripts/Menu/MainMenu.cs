@@ -31,7 +31,7 @@ public class MainMenu : MonoBehaviour
     {
         //SceneManager.LoadScene(firstLevel);
         //StartCoroutine(LoadStart());
-        startOptions.StartStages(sceneToStart);
+        startOptions.StartFirstStage();
     }
 
     public void OpenOptions()

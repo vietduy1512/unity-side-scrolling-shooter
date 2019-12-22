@@ -4,7 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class StartOptions : MonoBehaviour
 {
-    public int sceneToStart = 1;
+    public int firstStage = 0;
+    public int stageSeletion = 0;
+    public int survivalStage = 0;
     public bool changeScenes;
     public bool changeMusicOnStart;
 
@@ -17,6 +19,7 @@ public class StartOptions : MonoBehaviour
 
     private PlayMusic playMusic;
     private ShowPanels showPanels;
+    private int sceneToStart;
 
     void Awake()
     {
@@ -72,6 +75,30 @@ public class StartOptions : MonoBehaviour
     public void HideDelayed()
     {
         showPanels?.HideMenu();
+    }
+
+    public void StartFirstStage()
+    {
+        sceneToStart = firstStage;
+        Invoke("LoadDelayed", fadeColorAnimationClip.length * .5f);
+
+        animColorFade.SetTrigger("fade");
+    }
+
+    public void StartStagesSelection()
+    {
+        sceneToStart = stageSeletion;
+        Invoke("LoadDelayed", fadeColorAnimationClip.length * .5f);
+
+        animColorFade.SetTrigger("fade");
+    }
+
+    public void StartSurvival()
+    {
+        sceneToStart = survivalStage;
+        Invoke("LoadDelayed", fadeColorAnimationClip.length * .5f);
+
+        animColorFade.SetTrigger("fade");
     }
 
     public void StartStages(int level)

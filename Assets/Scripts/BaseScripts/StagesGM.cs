@@ -6,7 +6,7 @@ public class StagesGM : MonoBehaviour
 {
     public static bool isStartGame = false;
 
-    public static int lastStage = 2;
+    public static int lastStage = 9;
 
     public static int playerLives = 2;
 
@@ -97,7 +97,7 @@ public class StagesGM : MonoBehaviour
         FadeToBlack();
         if(layer.color.a >= 0.95f)
         {
-            if (stageNumber == lastStage)
+            if (stageNumber >= lastStage)
             {
                 SceneManager.LoadScene(0);
             }
