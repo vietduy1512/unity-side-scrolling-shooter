@@ -12,7 +12,7 @@ public class StagesGM : MonoBehaviour
 
     public static bool stageCleared = false;
 
-    [SerializeField] int stageNumber;
+    [SerializeField] public int stageNumber;
     [SerializeField] float fadeSpeed = 3f;
 
     [SerializeField] GameObject gameOverUI;

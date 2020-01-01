@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class StartOptions : MonoBehaviour
 {
-    public int firstStage = 0;
+    public int firstStage = 1;
     public int stageSeletion = 0;
     public int survivalStage = 0;
     public bool changeScenes;
@@ -103,7 +103,7 @@ public class StartOptions : MonoBehaviour
 
     public void StartStages(int level)
     {
-        sceneToStart = level + 1;
+        sceneToStart = level + 1 + firstStage;
         Invoke("LoadDelayed", fadeColorAnimationClip.length * .5f);
 
         animColorFade.SetTrigger("fade");

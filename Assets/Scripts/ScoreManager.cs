@@ -11,6 +11,8 @@ public class ScoreManager : MonoBehaviour
 
     public static int currentScore;
 
+    public StagesGM stagesGM;
+
     PlayerSpawner player;
 
     private void Awake()
@@ -34,5 +36,17 @@ public class ScoreManager : MonoBehaviour
             point.IncreaseUpgradePoint(value);
             currentScore += value;
         }
+    }
+
+    public string HighScore() {
+        string currentStage = stagesGM.stageNumber.ToString();
+        return DatabaseManager.intance.container.FindHighScore(currentStage);
+    }
+
+    public bool SaveCurrentGame() {
+        string currentStage = stagesGM.stageNumber.ToString();
+        DatabaseManager.intance.container.Save(currentStage, currentScore);
+        DatabaseManager.intance.SaveGame();
+        return true;
     }
 }

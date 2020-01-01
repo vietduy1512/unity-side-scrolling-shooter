@@ -148,7 +148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &103490276
@@ -740,7 +740,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a5fa76fe0a547ee842d7fecb84c442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToStart: 1
+  firstStage: 1
+  stageSeletion: 0
+  survivalStage: 0
   changeScenes: 1
   changeMusicOnStart: 0
   inMainMenu: 1
@@ -1910,15 +1912,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 11455492, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
+      propertyPath: speed
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21222992, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 1ea30977d4d8f4b439e8831a538529d1,
         type: 3}
-    - target: {fileID: 11455492, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
-      propertyPath: speed
-      value: -0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
 --- !u!1001 &1786434254
@@ -2150,14 +2152,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 11455492, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
+      propertyPath: speed
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 21222992, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0bf9624d6e7f8a24aa01bfac658e32d8,
         type: 3}
-    - target: {fileID: 11455492, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
-      propertyPath: speed
-      value: -0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0abd694f9cf8248b6e77e83f6e136c, type: 3}
