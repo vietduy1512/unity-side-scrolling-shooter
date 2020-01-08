@@ -9,7 +9,7 @@ public class PlayerUpgradeManager : MonoBehaviour
     [SerializeField] Point point;
 
     [Header("Upgrade Initilize")]
-    [SerializeField] float initFireRate = 0.3f;
+    [SerializeField] float initFireRate = 0.4f;
     [SerializeField] float initMoveSpeed = 8f;
     [SerializeField] float initHealth = 5;
     [SerializeField] int initMaxBarretts = 0;

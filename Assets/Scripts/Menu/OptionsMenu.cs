@@ -152,7 +152,7 @@ public class OptionsMenu : MonoBehaviour
 
     private float ToVolume(float value)
     {
-        return (value - 20) / 2;
+        return (value - 20);
     }
 }
 
