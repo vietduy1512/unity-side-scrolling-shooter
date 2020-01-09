@@ -8,7 +8,7 @@ public class StagesGM : MonoBehaviour
 
     public static int lastStage = 9;
 
-    public static int playerLives = 2;
+    public static int playerLives = 6;
 
     public static bool stageCleared = false;
 
