@@ -709,7 +709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Win: {fileID: 420776397}
-  time: 10
+  time: 30
 --- !u!4 &1845899512
 Transform:
   m_ObjectHideFlags: 0

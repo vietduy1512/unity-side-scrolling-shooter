@@ -195,10 +195,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 632201254, guid: d400daed9fdd0d04b81e981f45da9e34, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8596570665705999525, guid: d400daed9fdd0d04b81e981f45da9e34,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -294,6 +290,10 @@ PrefabInstance:
         type: 3}
       propertyPath: stageNumber
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 632201254, guid: d400daed9fdd0d04b81e981f45da9e34, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1694182669, guid: d400daed9fdd0d04b81e981f45da9e34, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Win: {fileID: 436024827}
-  time: 10
+  time: 30
 --- !u!4 &1647883676
 Transform:
   m_ObjectHideFlags: 0
