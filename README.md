@@ -1,2 +1,3 @@
-# ptgame-side-scrolling-shooter
-Nhom1 - Lightning Final Project
+# A side-scrolling shooter game
+
+Final project of HCMUS game development courses
